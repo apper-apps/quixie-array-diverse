@@ -23,29 +23,22 @@ const Home = () => {
             
             <motion.p
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
               className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto"
             >
-              Challenge yourself, explore new perspectives, and connect with a vibrant community of curious minds through quizzes that are far from ordinary.
+              Discover and take engaging quizzes from BookTok favorites to personality tests. Connect with a vibrant community of curious minds through quizzes that are far from ordinary.
             </motion.p>
-            
-            <motion.div
+<motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center"
+              className="flex justify-center"
             >
               <Link to="/categories">
                 <Button size="lg" className="flex items-center gap-2">
                   <ApperIcon name="Play" size={20} />
                   Start Quiz
-                </Button>
-              </Link>
-              <Link to="/create">
-                <Button variant="secondary" size="lg" className="flex items-center gap-2">
-                  <ApperIcon name="Plus" size={20} />
-                  Create Quiz
                 </Button>
               </Link>
             </motion.div>

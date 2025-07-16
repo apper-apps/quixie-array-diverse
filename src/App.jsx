@@ -6,9 +6,7 @@ import Home from "@/components/pages/Home";
 import Quiz from "@/components/pages/Quiz";
 import Results from "@/components/pages/Results";
 import Profile from "@/components/pages/Profile";
-import CreateQuiz from "@/components/pages/CreateQuiz";
 import Categories from "@/components/pages/Categories";
-
 function App() {
   return (
     <motion.div
@@ -21,9 +19,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="quiz/:id" element={<Quiz />} />
-          <Route path="results/:id" element={<Results />} />
+<Route path="results/:id" element={<Results />} />
           <Route path="profile" element={<Profile />} />
-          <Route path="create" element={<CreateQuiz />} />
           <Route path="categories" element={<Categories />} />
         </Route>
       </Routes>

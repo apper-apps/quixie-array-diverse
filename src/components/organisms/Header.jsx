@@ -11,13 +11,11 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
-  const navigation = [
+const navigation = [
     { name: "Discover", path: "/", icon: "Compass" },
     { name: "Categories", path: "/categories", icon: "Grid3x3" },
-    { name: "Create", path: "/create", icon: "Plus" },
     { name: "Profile", path: "/profile", icon: "User" }
   ];
-
   const handleSearch = (query) => {
     console.log("Search query:", query);
   };

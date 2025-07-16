@@ -249,6 +249,226 @@
         "correctAnswer": "Call friends or family to talk",
         "explanation": "Extroverts typically recharge through social interaction and external stimulation."
       }
+}
+    ]
+  },
+  {
+    "Id": 7,
+    "title": "Which Fourth Wing Dragon Would Choose You?",
+    "description": "Based on Rebecca Yarros' bestselling fantasy romance, discover which dragon from Basgiath War College would bond with you. Are you destined for Tairn's power or Andarna's golden strength?",
+    "category": "Personality",
+    "creatorId": "user-7",
+    "participantCount": 1832,
+    "averageScore": 79,
+    "createdAt": "2024-01-16T08:30:00Z",
+    "creator": {
+      "username": "BookTokQueen",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What quality would make you stand out at Basgiath War College?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Fierce determination and resilience", "isCorrect": true },
+          { "text": "Strategic thinking and planning", "isCorrect": false },
+          { "text": "Loyalty and protective instincts", "isCorrect": false },
+          { "text": "Adaptability and quick learning", "isCorrect": false }
+        ],
+        "correctAnswer": "Fierce determination and resilience",
+        "explanation": "Like Violet, determination and resilience are key traits that dragons respect and bond with."
+      },
+      {
+        "Id": 2,
+        "text": "How do you handle betrayal from someone you trusted?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Use it as motivation to become stronger", "isCorrect": true },
+          { "text": "Seek immediate revenge", "isCorrect": false },
+          { "text": "Try to understand their perspective", "isCorrect": false },
+          { "text": "Cut them off completely", "isCorrect": false }
+        ],
+        "correctAnswer": "Use it as motivation to become stronger",
+        "explanation": "Dragons value riders who can turn pain into power, much like the bond between Violet and Tairn."
+      },
+      {
+        "Id": 3,
+        "text": "What's your approach to protecting those you love?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Fight with everything you have, no matter the cost", "isCorrect": true },
+          { "text": "Use cunning and strategy to outmaneuver threats", "isCorrect": false },
+          { "text": "Sacrifice yourself to save them", "isCorrect": false },
+          { "text": "Rally others to help in the fight", "isCorrect": false }
+        ],
+        "correctAnswer": "Fight with everything you have, no matter the cost",
+        "explanation": "This fierce protective instinct mirrors the bond between dragons and their chosen riders."
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "title": "How Well Do You Know 'It Ends With Us'?",
+    "description": "Test your knowledge of Colleen Hoover's emotional masterpiece about love, resilience, and breaking cycles. From Lily's flower shop to Atlas's restaurant, how much do you remember?",
+    "category": "Pop Culture",
+    "creatorId": "user-8",
+    "participantCount": 2156,
+    "averageScore": 76,
+    "createdAt": "2024-01-15T12:45:00Z",
+    "creator": {
+      "username": "CoHoFanatic",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What is the name of Lily's flower shop?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Lily Bloom's", "isCorrect": true },
+          { "text": "Fresh Petals", "isCorrect": false },
+          { "text": "Bloom & Grow", "isCorrect": false },
+          { "text": "The Flower Garden", "isCorrect": false }
+        ],
+        "correctAnswer": "Lily Bloom's",
+        "explanation": "Lily names her flower shop after herself - Lily Bloom's, which is both her name and represents growth."
+      },
+      {
+        "Id": 2,
+        "text": "What does Atlas tattoo on his collarbone?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A heart", "isCorrect": false },
+          { "text": "Ellen", "isCorrect": true },
+          { "text": "Boston", "isCorrect": false },
+          { "text": "Just keep swimming", "isCorrect": false }
+        ],
+        "correctAnswer": "Ellen",
+        "explanation": "Atlas gets 'Ellen' tattooed on his collarbone to honor Ellen DeGeneres, whose show gave him and Lily hope."
+      },
+      {
+        "Id": 3,
+        "text": "What type of restaurant does Atlas own?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Italian", "isCorrect": false },
+          { "text": "French", "isCorrect": false },
+          { "text": "Contemporary American", "isCorrect": true },
+          { "text": "Mediterranean", "isCorrect": false }
+        ],
+        "correctAnswer": "Contemporary American",
+        "explanation": "Atlas owns a successful contemporary American restaurant, showing how he built his life after his difficult childhood."
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "title": "Which Evelyn Hugo Husband Era Are You?",
+    "description": "Based on Taylor Jenkins Reid's captivating novel, discover which of Evelyn Hugo's seven marriages represents your approach to love and life. Each era tells a different story of ambition, survival, and authenticity.",
+    "category": "Personality",
+    "creatorId": "user-9",
+    "participantCount": 1924,
+    "averageScore": 82,
+    "createdAt": "2024-01-14T17:20:00Z",
+    "creator": {
+      "username": "OldHollywoodFan",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What drives your most important life decisions?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Survival and protecting what matters most", "isCorrect": true },
+          { "text": "Passion and following your heart", "isCorrect": false },
+          { "text": "Ambition and career advancement", "isCorrect": false },
+          { "text": "Security and stability", "isCorrect": false }
+        ],
+        "correctAnswer": "Survival and protecting what matters most",
+        "explanation": "Like Evelyn, the strongest motivations often come from protecting those we love, even through difficult choices."
+      },
+      {
+        "Id": 2,
+        "text": "How do you handle having to hide your true self?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Do whatever it takes to protect your authentic relationships", "isCorrect": true },
+          { "text": "Gradually reveal your true self over time", "isCorrect": false },
+          { "text": "Rebel against the expectations", "isCorrect": false },
+          { "text": "Accept it as the price of success", "isCorrect": false }
+        ],
+        "correctAnswer": "Do whatever it takes to protect your authentic relationships",
+        "explanation": "Evelyn's story shows how protecting true love sometimes requires difficult sacrifices and public facades."
+      },
+      {
+        "Id": 3,
+        "text": "What would you sacrifice for the person you truly love?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Your public reputation and career", "isCorrect": true },
+          { "text": "Your family relationships", "isCorrect": false },
+          { "text": "Your personal dreams", "isCorrect": false },
+          { "text": "Your financial security", "isCorrect": false }
+        ],
+        "correctAnswer": "Your public reputation and career",
+        "explanation": "Evelyn's greatest love story with Celia required sacrificing her public image to protect their relationship."
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "title": "Are You Team Theo or Team Charlie?",
+    "description": "Emily Henry's 'Book Lovers' presents two very different romantic approaches. Discover whether you're more like serious, driven Theo or charming, easy-going Charlie in matters of love and life.",
+    "category": "Personality",
+    "creatorId": "user-10",
+    "participantCount": 1567,
+    "averageScore": 81,
+    "createdAt": "2024-01-13T14:15:00Z",
+    "creator": {
+      "username": "EmilyHenryFan",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What's your approach to professional relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Direct, honest feedback even if it's difficult", "isCorrect": true },
+          { "text": "Gentle encouragement and support", "isCorrect": false },
+          { "text": "Collaborative and team-focused", "isCorrect": false },
+          { "text": "Flexible and adaptable to different styles", "isCorrect": false }
+        ],
+        "correctAnswer": "Direct, honest feedback even if it's difficult",
+        "explanation": "Like Theo, being direct and honest in professional settings shows integrity and genuine care for growth."
+      },
+      {
+        "Id": 2,
+        "text": "How do you show someone you care about them?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Through actions and practical support", "isCorrect": true },
+          { "text": "With words of affirmation and compliments", "isCorrect": false },
+          { "text": "By spending quality time together", "isCorrect": false },
+          { "text": "Through thoughtful gifts and surprises", "isCorrect": false }
+        ],
+        "correctAnswer": "Through actions and practical support",
+        "explanation": "Actions speak louder than words, and practical support shows deep, genuine care for someone's wellbeing."
+      },
+      {
+        "Id": 3,
+        "text": "What attracts you most in a potential partner?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Intelligence and depth of character", "isCorrect": true },
+          { "text": "Humor and ability to have fun", "isCorrect": false },
+          { "text": "Kindness and empathy", "isCorrect": false },
+          { "text": "Shared interests and hobbies", "isCorrect": false }
+        ],
+        "correctAnswer": "Intelligence and depth of character",
+        "explanation": "Deep, meaningful connections are built on intellectual compatibility and understanding of character."
+      }
     ]
   }
-]
