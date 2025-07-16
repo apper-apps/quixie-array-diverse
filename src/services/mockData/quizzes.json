@@ -246,10 +246,9 @@
           { "text": "Go to a social event or gathering", "isCorrect": false },
           { "text": "Do a quiet activity like reading", "isCorrect": false }
         ],
-        "correctAnswer": "Call friends or family to talk",
+"correctAnswer": "Call friends or family to talk",
         "explanation": "Extroverts typically recharge through social interaction and external stimulation."
       }
-}
     ]
   },
   {
