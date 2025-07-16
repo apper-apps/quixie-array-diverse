@@ -1,0 +1,85 @@
+[
+  {
+    "Id": 1,
+    "quizId": 1,
+    "userId": "user-1",
+    "score": 2,
+    "totalQuestions": 3,
+    "answers": [
+      {
+        "questionId": 1,
+        "selectedAnswer": "Consult with trusted advisors and team members",
+        "correct": true
+      },
+      {
+        "questionId": 2,
+        "selectedAnswer": "Share an inspiring vision of the future",
+        "correct": true
+      },
+      {
+        "questionId": 3,
+        "selectedAnswer": "Defend your position with facts and logic",
+        "correct": false
+      }
+    ],
+    "feedback": "You show strong collaborative leadership qualities! Your instinct to consult with others and inspire through vision are hallmarks of great leaders. Consider being more open to criticism as a growth opportunity.",
+    "completedAt": "2024-01-15T14:30:00Z",
+    "quiz": {
+      "Id": 1,
+      "title": "Which Famous Leader Are You?",
+      "category": "Personality"
+    }
+  },
+  {
+    "Id": 2,
+    "quizId": 2,
+    "userId": "user-1",
+    "score": 1,
+    "totalQuestions": 2,
+    "answers": [
+      {
+        "questionId": 1,
+        "selectedAnswer": "Bohemian Rhapsody by Queen",
+        "correct": true
+      },
+      {
+        "questionId": 2,
+        "selectedAnswer": "All Night Long by Lionel Richie",
+        "correct": false
+      }
+    ],
+    "feedback": "Not bad! You got the Queen classic right, but missed the Lionel Richie hit. Keep listening to more classics to improve your music knowledge!",
+    "completedAt": "2024-01-14T16:45:00Z",
+    "quiz": {
+      "Id": 2,
+      "title": "Can You Guess the Song from the Lyrics?",
+      "category": "Trivia"
+    }
+  },
+  {
+    "Id": 3,
+    "quizId": 3,
+    "userId": "user-1",
+    "score": 2,
+    "totalQuestions": 2,
+    "answers": [
+      {
+        "questionId": 1,
+        "selectedAnswer": "Going out with friends to try a new restaurant",
+        "correct": true
+      },
+      {
+        "questionId": 2,
+        "selectedAnswer": "Address it directly and professionally",
+        "correct": true
+      }
+    ],
+    "feedback": "Perfect score! You're a natural leader who enjoys social situations and handles challenges head-on. You'd fit right in with many TV protagonists!",
+    "completedAt": "2024-01-13T18:20:00Z",
+    "quiz": {
+      "Id": 3,
+      "title": "Which TV Character Are You?",
+      "category": "Pop Culture"
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "Id": 1,
+    "title": "Which Famous Leader Are You?",
+    "description": "Discover your leadership style by answering questions about your decision-making, communication, and vision. Are you more like Winston Churchill, Gandhi, or Steve Jobs?",
+    "category": "Personality",
+    "creatorId": "user-1",
+    "participantCount": 1247,
+    "averageScore": 78,
+    "createdAt": "2024-01-15T10:00:00Z",
+    "creator": {
+      "username": "LeadershipGuru",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "When facing a major decision, what's your first instinct?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Gather all available data and analyze thoroughly", "isCorrect": false },
+          { "text": "Trust your gut feeling and act quickly", "isCorrect": false },
+          { "text": "Consult with trusted advisors and team members", "isCorrect": true },
+          { "text": "Consider the long-term impact on all stakeholders", "isCorrect": false }
+        ],
+        "correctAnswer": "Consult with trusted advisors and team members",
+        "explanation": "Great leaders understand the value of collective wisdom and diverse perspectives."
+      },
+      {
+        "Id": 2,
+        "text": "How do you motivate people during challenging times?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Share an inspiring vision of the future", "isCorrect": true },
+          { "text": "Offer rewards and incentives", "isCorrect": false },
+          { "text": "Set clear expectations and deadlines", "isCorrect": false },
+          { "text": "Lead by example and work harder yourself", "isCorrect": false }
+        ],
+        "correctAnswer": "Share an inspiring vision of the future",
+        "explanation": "Visionary leadership helps people see beyond current challenges to future possibilities."
+      },
+      {
+        "Id": 3,
+        "text": "What's your approach to handling criticism?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Defend your position with facts and logic", "isCorrect": false },
+          { "text": "Listen carefully and consider if changes are needed", "isCorrect": true },
+          { "text": "Ignore it and stay focused on your goals", "isCorrect": false },
+          { "text": "Address it publicly to set the record straight", "isCorrect": false }
+        ],
+        "correctAnswer": "Listen carefully and consider if changes are needed",
+        "explanation": "Effective leaders use criticism as a tool for growth and improvement."
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "Can You Guess the Song from the Lyrics?",
+    "description": "Test your music knowledge with these iconic lyrics from songs across different decades and genres. From classic rock to modern pop, how many can you identify?",
+    "category": "Trivia",
+    "creatorId": "user-2",
+    "participantCount": 892,
+    "averageScore": 65,
+    "createdAt": "2024-01-14T14:30:00Z",
+    "creator": {
+      "username": "MusicMaster",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Which song contains the lyrics: 'Is this the real life? Is this just fantasy?'",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Bohemian Rhapsody by Queen", "isCorrect": true },
+          { "text": "Stairway to Heaven by Led Zeppelin", "isCorrect": false },
+          { "text": "Hotel California by Eagles", "isCorrect": false },
+          { "text": "Sweet Child O' Mine by Guns N' Roses", "isCorrect": false }
+        ],
+        "correctAnswer": "Bohemian Rhapsody by Queen",
+        "explanation": "These are the opening lines of Queen's masterpiece 'Bohemian Rhapsody' from 1975."
+      },
+      {
+        "Id": 2,
+        "text": "What song starts with: 'Hello, is it me you're looking for?'",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "All Night Long by Lionel Richie", "isCorrect": false },
+          { "text": "Hello by Lionel Richie", "isCorrect": true },
+          { "text": "Easy by Lionel Richie", "isCorrect": false },
+          { "text": "Truly by Lionel Richie", "isCorrect": false }
+        ],
+        "correctAnswer": "Hello by Lionel Richie",
+        "explanation": "This is from Lionel Richie's 1984 hit 'Hello', one of his most recognizable songs."
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "title": "Which TV Character Are You?",
+    "description": "Answer questions about your personality, preferences, and reactions to discover which iconic TV character you're most like. From comedy to drama, find your match!",
+    "category": "Pop Culture",
+    "creatorId": "user-3",
+    "participantCount": 1456,
+    "averageScore": 82,
+    "createdAt": "2024-01-13T16:45:00Z",
+    "creator": {
+      "username": "TVAddict",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What's your ideal way to spend a Friday night?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Binge-watching a new series with snacks", "isCorrect": false },
+          { "text": "Going out with friends to try a new restaurant", "isCorrect": true },
+          { "text": "Working on a personal project or hobby", "isCorrect": false },
+          { "text": "Having a quiet night in with a good book", "isCorrect": false }
+        ],
+        "correctAnswer": "Going out with friends to try a new restaurant",
+        "explanation": "This suggests you're social and adventurous, like many outgoing TV characters."
+      },
+      {
+        "Id": 2,
+        "text": "How do you handle workplace conflicts?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Address it directly and professionally", "isCorrect": true },
+          { "text": "Try to avoid confrontation", "isCorrect": false },
+          { "text": "Make jokes to lighten the mood", "isCorrect": false },
+          { "text": "Seek advice from a mentor or friend", "isCorrect": false }
+        ],
+        "correctAnswer": "Address it directly and professionally",
+        "explanation": "This shows strong leadership qualities, similar to many TV protagonists."
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "What Would You Do in a Zombie Apocalypse?",
+    "description": "Test your survival instincts and decision-making skills in this hypothetical zombie apocalypse scenario. Are you a leader, survivor, or strategist?",
+    "category": "Hypotheticals",
+    "creatorId": "user-4",
+    "participantCount": 743,
+    "averageScore": 71,
+    "createdAt": "2024-01-12T11:20:00Z",
+    "creator": {
+      "username": "SurvivalExpert",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "The zombie outbreak has just begun. What's your first priority?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Gather supplies and find a secure location", "isCorrect": true },
+          { "text": "Find your family and loved ones", "isCorrect": false },
+          { "text": "Try to get more information about the situation", "isCorrect": false },
+          { "text": "Help others who are in immediate danger", "isCorrect": false }
+        ],
+        "correctAnswer": "Gather supplies and find a secure location",
+        "explanation": "In survival situations, securing basic needs first gives you the best chance of long-term survival."
+      },
+      {
+        "Id": 2,
+        "text": "You encounter a group of survivors. What do you do?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Approach cautiously and assess if they're trustworthy", "isCorrect": true },
+          { "text": "Join them immediately - safety in numbers", "isCorrect": false },
+          { "text": "Avoid them and continue alone", "isCorrect": false },
+          { "text": "Observe from a distance before deciding", "isCorrect": false }
+        ],
+        "correctAnswer": "Approach cautiously and assess if they're trustworthy",
+        "explanation": "Caution combined with openness to cooperation is often the best survival strategy."
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "Do You Know the World's Most Famous Landmarks?",
+    "description": "Test your geography knowledge with this quiz about iconic landmarks from around the world. From ancient wonders to modern marvels, how many can you identify?",
+    "category": "General Knowledge",
+    "creatorId": "user-5",
+    "participantCount": 1089,
+    "averageScore": 73,
+    "createdAt": "2024-01-11T09:15:00Z",
+    "creator": {
+      "username": "WorldTraveler",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Which landmark is located in Agra, India?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Red Fort", "isCorrect": false },
+          { "text": "Taj Mahal", "isCorrect": true },
+          { "text": "Gateway of India", "isCorrect": false },
+          { "text": "Lotus Temple", "isCorrect": false }
+        ],
+        "correctAnswer": "Taj Mahal",
+        "explanation": "The Taj Mahal, a UNESCO World Heritage Site, is located in Agra and is one of the most famous landmarks in India."
+      },
+      {
+        "Id": 2,
+        "text": "Which country is home to Machu Picchu?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Chile", "isCorrect": false },
+          { "text": "Peru", "isCorrect": true },
+          { "text": "Bolivia", "isCorrect": false },
+          { "text": "Ecuador", "isCorrect": false }
+        ],
+        "correctAnswer": "Peru",
+        "explanation": "Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru."
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Are You an Introvert or Extrovert?",
+    "description": "Discover your personality type with this comprehensive quiz that explores how you recharge, interact with others, and process information.",
+    "category": "Personality",
+    "creatorId": "user-6",
+    "participantCount": 2103,
+    "averageScore": 85,
+    "createdAt": "2024-01-10T15:30:00Z",
+    "creator": {
+      "username": "PsychologyPro",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "After a long day, you prefer to:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Spend time alone to recharge", "isCorrect": false },
+          { "text": "Call friends or family to talk", "isCorrect": true },
+          { "text": "Go to a social event or gathering", "isCorrect": false },
+          { "text": "Do a quiet activity like reading", "isCorrect": false }
+        ],
+        "correctAnswer": "Call friends or family to talk",
+        "explanation": "Extroverts typically recharge through social interaction and external stimulation."
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "quizId": 1,
+    "userId": "user-2",
+    "text": "This was such an insightful quiz! I learned a lot about my leadership style. The questions really made me think about how I approach decision-making.",
+    "upvotes": 15,
+    "createdAt": "2024-01-15T15:00:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-2",
+      "username": "MusicMaster",
+      "avatar": ""
+    }
+  },
+  {
+    "Id": 2,
+    "quizId": 1,
+    "userId": "user-3",
+    "text": "I got Gandhi as my result! Really interesting how the quiz connects personality traits to historical leaders. Well done!",
+    "upvotes": 8,
+    "createdAt": "2024-01-15T16:30:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-3",
+      "username": "TVAddict",
+      "avatar": ""
+    }
+  },
+  {
+    "Id": 3,
+    "quizId": 2,
+    "userId": "user-1",
+    "text": "Wow, this music quiz was challenging! I only got 6 out of 10 correct. Need to brush up on my 80s music knowledge.",
+    "upvotes": 12,
+    "createdAt": "2024-01-14T17:00:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-1",
+      "username": "QuizMaster2024",
+      "avatar": ""
+    }
+  },
+  {
+    "Id": 4,
+    "quizId": 2,
+    "userId": "user-3",
+    "text": "The Queen question was too easy! But I loved the variety of decades covered. More rock classics please!",
+    "upvotes": 5,
+    "createdAt": "2024-01-14T18:15:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-3",
+      "username": "TVAddict",
+      "avatar": ""
+    }
+  },
+  {
+    "Id": 5,
+    "quizId": 3,
+    "userId": "user-2",
+    "text": "I got Hermione Granger as my result! The questions about problem-solving really nailed my personality. Love how detailed the analysis was.",
+    "upvotes": 20,
+    "createdAt": "2024-01-13T19:45:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-2",
+      "username": "MusicMaster",
+      "avatar": ""
+    }
+  },
+  {
+    "Id": 6,
+    "quizId": 3,
+    "userId": "user-1",
+    "text": "This quiz has such a great variety of TV shows represented. From sitcoms to dramas, really comprehensive!",
+    "upvotes": 7,
+    "createdAt": "2024-01-13T20:30:00Z",
+    "parentId": null,
+    "user": {
+      "Id": "user-1",
+      "username": "QuizMaster2024",
+      "avatar": ""
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Id": "user-1",
+    "username": "QuizMaster2024",
+    "email": "quizmaster@example.com",
+    "avatar": "",
+    "quizzesTaken": 45,
+    "quizzesCreated": 12,
+    "totalPoints": 3420,
+    "averageScore": 78,
+    "joinedAt": "2024-01-01T00:00:00Z",
+    "achievements": [
+      {
+        "Id": 1,
+        "title": "Quiz Master",
+        "description": "Created 10 or more quizzes",
+        "earnedAt": "2024-01-15T10:00:00Z"
+      },
+      {
+        "Id": 2,
+        "title": "Knowledge Seeker",
+        "description": "Completed 25 quizzes",
+        "earnedAt": "2024-01-10T14:30:00Z"
+      },
+      {
+        "Id": 3,
+        "title": "Community Contributor",
+        "description": "Received 100 upvotes on comments",
+        "earnedAt": "2024-01-08T09:15:00Z"
+      }
+    ]
+  },
+  {
+    "Id": "user-2",
+    "username": "MusicMaster",
+    "email": "musicmaster@example.com",
+    "avatar": "",
+    "quizzesTaken": 23,
+    "quizzesCreated": 8,
+    "totalPoints": 1890,
+    "averageScore": 82,
+    "joinedAt": "2024-01-03T00:00:00Z",
+    "achievements": [
+      {
+        "Id": 1,
+        "title": "Music Maestro",
+        "description": "Perfect score on 5 music quizzes",
+        "earnedAt": "2024-01-12T16:45:00Z"
+      }
+    ]
+  },
+  {
+    "Id": "user-3",
+    "username": "TVAddict",
+    "email": "tvaddict@example.com",
+    "avatar": "",
+    "quizzesTaken": 67,
+    "quizzesCreated": 15,
+    "totalPoints": 4560,
+    "averageScore": 75,
+    "joinedAt": "2024-01-02T00:00:00Z",
+    "achievements": [
+      {
+        "Id": 1,
+        "title": "Binge Watcher",
+        "description": "Completed 50 TV-related quizzes",
+        "earnedAt": "2024-01-14T11:20:00Z"
+      },
+      {
+        "Id": 2,
+        "title": "Pop Culture Expert",
+        "description": "Top 10% in Pop Culture category",
+        "earnedAt": "2024-01-11T13:45:00Z"
+      }
+    ]
+  }
+]
