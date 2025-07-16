@@ -35,25 +35,19 @@ const QuizPlayer = ({ quiz, onComplete }) => {
     toast.error("Time's up!");
   };
 
-  const handleAnswerSelect = (answer) => {
+const handleAnswerSelect = (answer) => {
     if (isAnswered) return;
     
     setSelectedAnswer(answer);
     setIsAnswered(true);
     setShowFeedback(true);
     
-    const isCorrect = answer === question.correctAnswer;
     setAnswers([...answers, { 
       questionId: question.Id, 
-      selectedAnswer: answer, 
-      correct: isCorrect 
+      selectedAnswer: answer
     }]);
 
-    if (isCorrect) {
-      toast.success("Correct!");
-    } else {
-      toast.error("Wrong answer!");
-    }
+    toast.success("Answer recorded!");
   };
 
   const handleNextQuestion = () => {
@@ -63,17 +57,17 @@ const QuizPlayer = ({ quiz, onComplete }) => {
       setShowFeedback(false);
       setTimeLeft(30);
       setIsAnswered(false);
-    } else {
-      // Quiz complete
-      const score = answers.filter(a => a.correct).length;
+} else {
+      // Quiz complete - pass answers for analysis
+      const finalAnswers = [...answers, { 
+        questionId: question.Id, 
+        selectedAnswer: selectedAnswer
+      }];
+      
       onComplete({
-        score,
         totalQuestions,
-        answers: [...answers, { 
-          questionId: question.Id, 
-          selectedAnswer: selectedAnswer, 
-          correct: selectedAnswer === question.correctAnswer 
-        }]
+        answers: finalAnswers,
+        quiz: quiz
       });
     }
   };
@@ -97,8 +91,8 @@ const QuizPlayer = ({ quiz, onComplete }) => {
               </span>
             </div>
           </div>
-          <div className="text-sm text-gray-400">
-            Score: {answers.filter(a => a.correct).length}/{answers.length}
+<div className="text-sm text-gray-400">
+            Answered: {answers.length}
           </div>
         </div>
         <ProgressBar value={progress} className="mb-2" />
@@ -129,9 +123,8 @@ const QuizPlayer = ({ quiz, onComplete }) => {
             )}
             
             <div className="grid gap-3">
-              {question.options.map((option, index) => {
+{question.options.map((option, index) => {
                 const isSelected = selectedAnswer === option.text;
-                const isCorrect = option.text === question.correctAnswer;
                 
                 return (
                   <motion.button
@@ -140,32 +133,25 @@ const QuizPlayer = ({ quiz, onComplete }) => {
                     whileTap={{ scale: isAnswered ? 1 : 0.98 }}
                     onClick={() => handleAnswerSelect(option.text)}
                     disabled={isAnswered}
-                    className={cn(
+className={cn(
                       "p-4 rounded-lg border transition-all duration-300 text-left",
                       !isAnswered && "hover:border-primary hover:bg-primary/5",
-                      isAnswered && isSelected && isCorrect && "bg-success/20 border-success text-success",
-                      isAnswered && isSelected && !isCorrect && "bg-error/20 border-error text-error animate-shake",
-                      isAnswered && !isSelected && isCorrect && "bg-success/10 border-success/50",
+                      isAnswered && isSelected && "bg-primary/20 border-primary text-primary",
                       !isAnswered && "bg-surface border-white/10 text-white cursor-pointer",
-                      isAnswered && !isSelected && !isCorrect && "bg-surface/50 border-white/5 text-gray-400"
+                      isAnswered && !isSelected && "bg-surface/50 border-white/5 text-gray-400"
                     )}
                   >
                     <div className="flex items-center gap-3">
-                      <div className={cn(
+<div className={cn(
                         "w-6 h-6 rounded-full border-2 flex items-center justify-center text-xs font-bold",
-                        isAnswered && isSelected && isCorrect && "bg-success border-success text-white",
-                        isAnswered && isSelected && !isCorrect && "bg-error border-error text-white",
-                        isAnswered && !isSelected && isCorrect && "bg-success/20 border-success",
+                        isAnswered && isSelected && "bg-primary border-primary text-white",
                         !isAnswered && "border-white/30"
                       )}>
                         {String.fromCharCode(65 + index)}
                       </div>
-                      <span className="flex-1">{option.text}</span>
-                      {isAnswered && isCorrect && (
-                        <ApperIcon name="Check" size={20} className="text-success" />
-                      )}
-                      {isAnswered && isSelected && !isCorrect && (
-                        <ApperIcon name="X" size={20} className="text-error" />
+<span className="flex-1">{option.text}</span>
+                      {isAnswered && isSelected && (
+                        <ApperIcon name="Check" size={20} className="text-primary" />
                       )}
                     </div>
                   </motion.button>
@@ -185,25 +171,22 @@ const QuizPlayer = ({ quiz, onComplete }) => {
             exit={{ opacity: 0, y: -20 }}
             className="mb-6"
           >
-            <Card className="bg-surface/50">
+<Card className="bg-surface/50">
               <div className="flex items-start gap-3">
-                <div className={cn(
-                  "w-10 h-10 rounded-full flex items-center justify-center",
-                  selectedAnswer === question.correctAnswer ? "bg-success/20" : "bg-error/20"
-                )}>
+                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/20">
                   <ApperIcon 
-                    name={selectedAnswer === question.correctAnswer ? "Check" : "X"} 
+                    name="Check" 
                     size={20} 
-                    className={selectedAnswer === question.correctAnswer ? "text-success" : "text-error"}
+                    className="text-primary"
                   />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-medium mb-2">
-                    {selectedAnswer === question.correctAnswer ? "Correct!" : "Wrong Answer"}
+                    Answer Recorded
                   </h3>
-                  {question.explanation && (
-                    <p className="text-gray-400 text-sm">{question.explanation}</p>
-                  )}
+                  <p className="text-gray-400 text-sm">
+                    Your response has been saved. Continue to see your personalized analysis.
+                  </p>
                 </div>
               </div>
             </Card>

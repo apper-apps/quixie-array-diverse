@@ -123,7 +123,7 @@ const categories = [
 
 const handlePublish = async () => {
     if (quizData.questions.length < 10) {
-      toast.error("Please add at least 10 questions before publishing");
+      toast.error("Please add at least 10 questions for comprehensive analysis");
       return;
     }
 
@@ -355,9 +355,9 @@ const handlePublish = async () => {
                           Preview Quiz
                         </Button>
                       )}
-                      {quizData.questions.length > 0 && quizData.questions.length < 10 && (
+{quizData.questions.length > 0 && quizData.questions.length < 10 && (
                         <div className="text-sm text-gray-400 mt-2">
-                          Add {10 - quizData.questions.length} more question{10 - quizData.questions.length !== 1 ? 's' : ''} to preview (minimum 10 required)
+                          Add {10 - quizData.questions.length} more question{10 - quizData.questions.length !== 1 ? 's' : ''} for comprehensive analysis (minimum 10 required)
                         </div>
                       )}
                     </div>

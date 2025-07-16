@@ -51,6 +51,97 @@
         ],
         "correctAnswer": "Listen carefully and consider if changes are needed",
         "explanation": "Effective leaders use criticism as a tool for growth and improvement."
+},
+      {
+        "Id": 4,
+        "text": "What's your communication style when expressing disagreement?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Express your views diplomatically and seek common ground", "isCorrect": true },
+          { "text": "State your position firmly but respectfully", "isCorrect": false },
+          { "text": "Use data and evidence to support your perspective", "isCorrect": false },
+          { "text": "Listen more than you speak and ask clarifying questions", "isCorrect": false }
+        ],
+        "correctAnswer": "Express your views diplomatically and seek common ground",
+        "explanation": "Diplomatic communication that seeks common ground shows strong leadership and emotional intelligence."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle setbacks and failures?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Analyze what went wrong and develop a new strategy", "isCorrect": true },
+          { "text": "Rally your team and focus on moving forward", "isCorrect": false },
+          { "text": "Take full responsibility and learn from the experience", "isCorrect": false },
+          { "text": "Seek advice from mentors and trusted advisors", "isCorrect": false }
+        ],
+        "correctAnswer": "Analyze what went wrong and develop a new strategy",
+        "explanation": "Strategic thinking and learning from failures are hallmarks of effective leadership."
+      },
+      {
+        "Id": 6,
+        "text": "What's your approach to innovation and change?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Embrace new ideas while managing risks carefully", "isCorrect": true },
+          { "text": "Encourage experimentation and creative thinking", "isCorrect": false },
+          { "text": "Build on existing successes with incremental improvements", "isCorrect": false },
+          { "text": "Research best practices before implementing changes", "isCorrect": false }
+        ],
+        "correctAnswer": "Embrace new ideas while managing risks carefully",
+        "explanation": "Balancing innovation with risk management shows mature leadership judgment."
+      },
+      {
+        "Id": 7,
+        "text": "How do you build trust with your team?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Be transparent about challenges and decisions", "isCorrect": true },
+          { "text": "Keep your promises and follow through consistently", "isCorrect": false },
+          { "text": "Show genuine interest in their personal and professional growth", "isCorrect": false },
+          { "text": "Admit when you don't know something and ask for help", "isCorrect": false }
+        ],
+        "correctAnswer": "Be transparent about challenges and decisions",
+        "explanation": "Transparency builds trust and helps teams navigate challenges together."
+      },
+      {
+        "Id": 8,
+        "text": "What's your decision-making process under pressure?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Remain calm and focus on the most critical priorities", "isCorrect": true },
+          { "text": "Gather essential information quickly and decide", "isCorrect": false },
+          { "text": "Delegate decisions to subject matter experts", "isCorrect": false },
+          { "text": "Trust your instincts and past experience", "isCorrect": false }
+        ],
+        "correctAnswer": "Remain calm and focus on the most critical priorities",
+        "explanation": "Maintaining composure under pressure and focusing on priorities is essential for effective leadership."
+      },
+      {
+        "Id": 9,
+        "text": "How do you handle competing demands on your time?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Prioritize based on long-term impact and strategic importance", "isCorrect": true },
+          { "text": "Address urgent items first, then focus on important tasks", "isCorrect": false },
+          { "text": "Delegate what you can and focus on what only you can do", "isCorrect": false },
+          { "text": "Communicate clearly about timelines and expectations", "isCorrect": false }
+        ],
+        "correctAnswer": "Prioritize based on long-term impact and strategic importance",
+        "explanation": "Strategic prioritization based on long-term impact is a key leadership skill."
+      },
+      {
+        "Id": 10,
+        "text": "What's your leadership legacy aspiration?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Developing other leaders who surpass your achievements", "isCorrect": true },
+          { "text": "Creating lasting positive change in your organization", "isCorrect": false },
+          { "text": "Being remembered for your integrity and values", "isCorrect": false },
+          { "text": "Building something that continues to benefit others", "isCorrect": false }
+        ],
+        "correctAnswer": "Developing other leaders who surpass your achievements",
+        "explanation": "The greatest leaders are those who develop others to achieve even greater success."
       }
     ]
   },
@@ -93,6 +184,110 @@
         ],
         "correctAnswer": "Hello by Lionel Richie",
         "explanation": "This is from Lionel Richie's 1984 hit 'Hello', one of his most recognizable songs."
+},
+      {
+        "Id": 3,
+        "text": "Complete this lyric: 'I took the road less traveled by, and that has made all the...'",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "difference", "isCorrect": true },
+          { "text": "change", "isCorrect": false },
+          { "text": "impact", "isCorrect": false },
+          { "text": "journey", "isCorrect": false }
+        ],
+        "correctAnswer": "difference",
+        "explanation": "This is from Robert Frost's famous poem 'The Road Not Taken', often referenced in music."
+      },
+      {
+        "Id": 4,
+        "text": "Which artist sang 'I Will Always Love You' that topped charts in the 1990s?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Whitney Houston", "isCorrect": true },
+          { "text": "Dolly Parton", "isCorrect": false },
+          { "text": "Celine Dion", "isCorrect": false },
+          { "text": "Mariah Carey", "isCorrect": false }
+        ],
+        "correctAnswer": "Whitney Houston",
+        "explanation": "Whitney Houston's version became a massive hit, though Dolly Parton originally wrote and recorded it."
+      },
+      {
+        "Id": 5,
+        "text": "What song contains the lyrics 'Mama, just killed a man'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Bohemian Rhapsody by Queen", "isCorrect": true },
+          { "text": "Another One Bites the Dust by Queen", "isCorrect": false },
+          { "text": "Hotel California by Eagles", "isCorrect": false },
+          { "text": "Stairway to Heaven by Led Zeppelin", "isCorrect": false }
+        ],
+        "correctAnswer": "Bohemian Rhapsody by Queen",
+        "explanation": "This is another famous line from Queen's epic 'Bohemian Rhapsody'."
+      },
+      {
+        "Id": 6,
+        "text": "Which Beatles song begins with 'Yesterday, all my troubles seemed so far away'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Yesterday", "isCorrect": true },
+          { "text": "Let It Be", "isCorrect": false },
+          { "text": "Hey Jude", "isCorrect": false },
+          { "text": "Eleanor Rigby", "isCorrect": false }
+        ],
+        "correctAnswer": "Yesterday",
+        "explanation": "Paul McCartney's 'Yesterday' is one of the most covered songs in music history."
+      },
+      {
+        "Id": 7,
+        "text": "What song includes the lyrics 'I see trees of green, red roses too'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "What a Wonderful World by Louis Armstrong", "isCorrect": true },
+          { "text": "Fly Me to the Moon by Frank Sinatra", "isCorrect": false },
+          { "text": "Blue Moon by Billie Holiday", "isCorrect": false },
+          { "text": "Summertime by Ella Fitzgerald", "isCorrect": false }
+        ],
+        "correctAnswer": "What a Wonderful World by Louis Armstrong",
+        "explanation": "This classic song by Louis Armstrong celebrates the beauty of the natural world."
+      },
+      {
+        "Id": 8,
+        "text": "Which song contains 'Don't stop believin', hold on to that feelin''?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Don't Stop Believin' by Journey", "isCorrect": true },
+          { "text": "Any Way You Want It by Journey", "isCorrect": false },
+          { "text": "Separate Ways by Journey", "isCorrect": false },
+          { "text": "Faithfully by Journey", "isCorrect": false }
+        ],
+        "correctAnswer": "Don't Stop Believin' by Journey",
+        "explanation": "Journey's 'Don't Stop Believin'' is one of the most recognizable rock anthems of all time."
+      },
+      {
+        "Id": 9,
+        "text": "What song starts with 'Is this the real life? Is this just fantasy? Caught in a landslide...'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Bohemian Rhapsody by Queen", "isCorrect": true },
+          { "text": "We Are The Champions by Queen", "isCorrect": false },
+          { "text": "Somebody To Love by Queen", "isCorrect": false },
+          { "text": "Under Pressure by Queen", "isCorrect": false }
+        ],
+        "correctAnswer": "Bohemian Rhapsody by Queen",
+        "explanation": "The full opening line continues 'Caught in a landslide, no escape from reality'."
+      },
+      {
+        "Id": 10,
+        "text": "Which song includes the lyrics 'I can see clearly now, the rain is gone'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I Can See Clearly Now by Johnny Nash", "isCorrect": true },
+          { "text": "Here Comes the Sun by The Beatles", "isCorrect": false },
+          { "text": "Good Day Sunshine by The Beatles", "isCorrect": false },
+          { "text": "Sunshine on My Shoulders by John Denver", "isCorrect": false }
+        ],
+        "correctAnswer": "I Can See Clearly Now by Johnny Nash",
+        "explanation": "Johnny Nash's uplifting song about overcoming obstacles and seeing hope ahead."
       }
     ]
   },
@@ -135,6 +330,110 @@
         ],
         "correctAnswer": "Address it directly and professionally",
         "explanation": "This shows strong leadership qualities, similar to many TV protagonists."
+},
+      {
+        "Id": 3,
+        "text": "What's your approach to conflict resolution?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Address issues directly but diplomatically", "isCorrect": true },
+          { "text": "Try to find humor to lighten the situation", "isCorrect": false },
+          { "text": "Listen to all sides before taking action", "isCorrect": false },
+          { "text": "Seek compromise that works for everyone", "isCorrect": false }
+        ],
+        "correctAnswer": "Address issues directly but diplomatically",
+        "explanation": "Direct yet diplomatic conflict resolution shows strong interpersonal skills."
+      },
+      {
+        "Id": 4,
+        "text": "How do you handle stress and pressure?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Take breaks and practice self-care", "isCorrect": true },
+          { "text": "Channel it into motivation and productivity", "isCorrect": false },
+          { "text": "Talk it through with friends or family", "isCorrect": false },
+          { "text": "Focus on problem-solving and solutions", "isCorrect": false }
+        ],
+        "correctAnswer": "Take breaks and practice self-care",
+        "explanation": "Healthy stress management through self-care is essential for long-term success."
+      },
+      {
+        "Id": 5,
+        "text": "What's your leadership style in group projects?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Facilitate collaboration and delegate effectively", "isCorrect": true },
+          { "text": "Take charge and organize the team's efforts", "isCorrect": false },
+          { "text": "Contribute your expertise and support others", "isCorrect": false },
+          { "text": "Focus on keeping everyone motivated and engaged", "isCorrect": false }
+        ],
+        "correctAnswer": "Facilitate collaboration and delegate effectively",
+        "explanation": "Facilitative leadership that empowers others is highly effective in team settings."
+      },
+      {
+        "Id": 6,
+        "text": "How do you make important life decisions?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Weigh pros and cons systematically", "isCorrect": true },
+          { "text": "Trust your gut instincts", "isCorrect": false },
+          { "text": "Seek advice from trusted mentors", "isCorrect": false },
+          { "text": "Consider long-term consequences", "isCorrect": false }
+        ],
+        "correctAnswer": "Weigh pros and cons systematically",
+        "explanation": "Systematic decision-making often leads to better outcomes and less regret."
+      },
+      {
+        "Id": 7,
+        "text": "What's your approach to learning new skills?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Practice consistently and seek feedback", "isCorrect": true },
+          { "text": "Jump in and learn through trial and error", "isCorrect": false },
+          { "text": "Study thoroughly before attempting", "isCorrect": false },
+          { "text": "Find a mentor or take structured courses", "isCorrect": false }
+        ],
+        "correctAnswer": "Practice consistently and seek feedback",
+        "explanation": "Consistent practice with feedback is the most effective way to master new skills."
+      },
+      {
+        "Id": 8,
+        "text": "How do you celebrate your achievements?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Share the success with those who helped you", "isCorrect": true },
+          { "text": "Take time to reflect on your growth", "isCorrect": false },
+          { "text": "Set new, bigger goals", "isCorrect": false },
+          { "text": "Treat yourself to something special", "isCorrect": false }
+        ],
+        "correctAnswer": "Share the success with those who helped you",
+        "explanation": "Recognizing others' contributions shows humility and builds stronger relationships."
+      },
+      {
+        "Id": 9,
+        "text": "What's your communication style in professional settings?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Clear, concise, and respectful", "isCorrect": true },
+          { "text": "Enthusiastic and engaging", "isCorrect": false },
+          { "text": "Thoughtful and well-prepared", "isCorrect": false },
+          { "text": "Adaptable to your audience", "isCorrect": false }
+        ],
+        "correctAnswer": "Clear, concise, and respectful",
+        "explanation": "Professional communication that is clear and respectful is universally effective."
+      },
+      {
+        "Id": 10,
+        "text": "How do you handle criticism or feedback?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Listen openly and look for areas to improve", "isCorrect": true },
+          { "text": "Ask clarifying questions to understand better", "isCorrect": false },
+          { "text": "Thank the person and reflect on their points", "isCorrect": false },
+          { "text": "Consider the source and their perspective", "isCorrect": false }
+        ],
+        "correctAnswer": "Listen openly and look for areas to improve",
+        "explanation": "Openness to feedback and continuous improvement are key to personal and professional growth."
       }
     ]
   },
@@ -177,6 +476,110 @@
         ],
         "correctAnswer": "Approach cautiously and assess if they're trustworthy",
         "explanation": "Caution combined with openness to cooperation is often the best survival strategy."
+},
+      {
+        "Id": 3,
+        "text": "What's your biggest fear in a zombie apocalypse?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Being separated from loved ones", "isCorrect": true },
+          { "text": "Running out of supplies", "isCorrect": false },
+          { "text": "Making a mistake that gets someone killed", "isCorrect": false },
+          { "text": "Losing your humanity in the process", "isCorrect": false }
+        ],
+        "correctAnswer": "Being separated from loved ones",
+        "explanation": "The fear of losing connections with loved ones is a deeply human response to crisis."
+      },
+      {
+        "Id": 4,
+        "text": "What skill would be most important to develop for long-term survival?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Medical knowledge and first aid", "isCorrect": true },
+          { "text": "Hunting and foraging", "isCorrect": false },
+          { "text": "Mechanical repair skills", "isCorrect": false },
+          { "text": "Leadership and group management", "isCorrect": false }
+        ],
+        "correctAnswer": "Medical knowledge and first aid",
+        "explanation": "Medical skills would be invaluable when professional healthcare is no longer available."
+      },
+      {
+        "Id": 5,
+        "text": "How would you handle the psychological stress of the apocalypse?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Maintain routines and focus on small positives", "isCorrect": true },
+          { "text": "Stay busy with survival tasks", "isCorrect": false },
+          { "text": "Share feelings and support others emotionally", "isCorrect": false },
+          { "text": "Accept that normalcy is gone and adapt", "isCorrect": false }
+        ],
+        "correctAnswer": "Maintain routines and focus on small positives",
+        "explanation": "Maintaining psychological stability through routine and positive focus is crucial for long-term survival."
+      },
+      {
+        "Id": 6,
+        "text": "What would be your long-term goal in a post-apocalyptic world?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Rebuild civilization with better values", "isCorrect": true },
+          { "text": "Find a safe haven and protect it", "isCorrect": false },
+          { "text": "Locate and reunite with family", "isCorrect": false },
+          { "text": "Document what happened for future generations", "isCorrect": false }
+        ],
+        "correctAnswer": "Rebuild civilization with better values",
+        "explanation": "Working toward rebuilding shows hope and vision for the future of humanity."
+      },
+      {
+        "Id": 7,
+        "text": "How would you make tough moral decisions about resource allocation?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Prioritize those who contribute most to group survival", "isCorrect": true },
+          { "text": "Distribute resources equally among all members", "isCorrect": false },
+          { "text": "Give priority to children and elderly", "isCorrect": false },
+          { "text": "Let the group vote on distribution decisions", "isCorrect": false }
+        ],
+        "correctAnswer": "Prioritize those who contribute most to group survival",
+        "explanation": "Harsh but practical resource allocation would be necessary for group survival."
+      },
+      {
+        "Id": 8,
+        "text": "What would you do if you discovered a cure for the zombie virus?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Share the information with all surviving communities", "isCorrect": true },
+          { "text": "Use it to gain power and influence", "isCorrect": false },
+          { "text": "Keep it secret until you can mass-produce it", "isCorrect": false },
+          { "text": "Trade it for resources and protection", "isCorrect": false }
+        ],
+        "correctAnswer": "Share the information with all surviving communities",
+        "explanation": "Sharing a cure would be the most humanitarian choice for rebuilding society."
+      },
+      {
+        "Id": 9,
+        "text": "How would you handle becoming a leader in a survivor group?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Focus on building consensus and shared decision-making", "isCorrect": true },
+          { "text": "Make tough decisions quickly and decisively", "isCorrect": false },
+          { "text": "Delegate responsibilities to trusted lieutenants", "isCorrect": false },
+          { "text": "Lead by example and inspire through actions", "isCorrect": false }
+        ],
+        "correctAnswer": "Focus on building consensus and shared decision-making",
+        "explanation": "Collaborative leadership would be essential for maintaining group cohesion and morale."
+      },
+      {
+        "Id": 10,
+        "text": "What would motivate you to keep going when hope seems lost?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The responsibility to protect and provide for others", "isCorrect": true },
+          { "text": "The belief that things will eventually get better", "isCorrect": false },
+          { "text": "The desire to see loved ones again", "isCorrect": false },
+          { "text": "The challenge of survival itself", "isCorrect": false }
+        ],
+        "correctAnswer": "The responsibility to protect and provide for others",
+        "explanation": "Finding purpose in protecting others often provides the strongest motivation to persevere."
       }
     ]
   },
@@ -219,6 +622,110 @@
         ],
         "correctAnswer": "Peru",
         "explanation": "Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru."
+},
+      {
+        "Id": 3,
+        "text": "Which famous landmark can you find in Paris, France?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Eiffel Tower", "isCorrect": true },
+          { "text": "Big Ben", "isCorrect": false },
+          { "text": "Colosseum", "isCorrect": false },
+          { "text": "Statue of Liberty", "isCorrect": false }
+        ],
+        "correctAnswer": "Eiffel Tower",
+        "explanation": "The Eiffel Tower is Paris's most iconic landmark and was built for the 1889 World's Fair."
+      },
+      {
+        "Id": 4,
+        "text": "What is the longest river in the world?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Nile River", "isCorrect": true },
+          { "text": "Amazon River", "isCorrect": false },
+          { "text": "Mississippi River", "isCorrect": false },
+          { "text": "Yangtze River", "isCorrect": false }
+        ],
+        "correctAnswer": "Nile River",
+        "explanation": "The Nile River in Africa is approximately 4,132 miles long, making it the world's longest river."
+      },
+      {
+        "Id": 5,
+        "text": "Which country has the most time zones?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "France", "isCorrect": true },
+          { "text": "Russia", "isCorrect": false },
+          { "text": "United States", "isCorrect": false },
+          { "text": "China", "isCorrect": false }
+        ],
+        "correctAnswer": "France",
+        "explanation": "France has 12 time zones due to its overseas territories, more than any other country."
+      },
+      {
+        "Id": 6,
+        "text": "What is the smallest country in the world?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Vatican City", "isCorrect": true },
+          { "text": "Monaco", "isCorrect": false },
+          { "text": "San Marino", "isCorrect": false },
+          { "text": "Liechtenstein", "isCorrect": false }
+        ],
+        "correctAnswer": "Vatican City",
+        "explanation": "Vatican City covers only 0.17 square miles, making it the smallest sovereign state in the world."
+      },
+      {
+        "Id": 7,
+        "text": "Which ocean is the largest?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Pacific Ocean", "isCorrect": true },
+          { "text": "Atlantic Ocean", "isCorrect": false },
+          { "text": "Indian Ocean", "isCorrect": false },
+          { "text": "Arctic Ocean", "isCorrect": false }
+        ],
+        "correctAnswer": "Pacific Ocean",
+        "explanation": "The Pacific Ocean covers about 63 million square miles, making it larger than all land masses combined."
+      },
+      {
+        "Id": 8,
+        "text": "What is the capital of Australia?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Canberra", "isCorrect": true },
+          { "text": "Sydney", "isCorrect": false },
+          { "text": "Melbourne", "isCorrect": false },
+          { "text": "Brisbane", "isCorrect": false }
+        ],
+        "correctAnswer": "Canberra",
+        "explanation": "Canberra is Australia's capital city, chosen as a compromise between Sydney and Melbourne."
+      },
+      {
+        "Id": 9,
+        "text": "Which mountain range contains Mount Everest?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Himalayas", "isCorrect": true },
+          { "text": "Andes", "isCorrect": false },
+          { "text": "Rocky Mountains", "isCorrect": false },
+          { "text": "Alps", "isCorrect": false }
+        ],
+        "correctAnswer": "Himalayas",
+        "explanation": "Mount Everest is located in the Himalayas on the border between Nepal and Tibet."
+      },
+      {
+        "Id": 10,
+        "text": "What is the most spoken language in the world by number of native speakers?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Mandarin Chinese", "isCorrect": true },
+          { "text": "English", "isCorrect": false },
+          { "text": "Spanish", "isCorrect": false },
+          { "text": "Hindi", "isCorrect": false }
+        ],
+        "correctAnswer": "Mandarin Chinese",
+        "explanation": "Mandarin Chinese has over 900 million native speakers, making it the most spoken language by native speakers."
       }
     ]
   },
@@ -248,6 +755,123 @@
         ],
 "correctAnswer": "Call friends or family to talk",
         "explanation": "Extroverts typically recharge through social interaction and external stimulation."
+},
+      {
+        "Id": 2,
+        "text": "How do you typically spend your weekends?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Relaxing at home with hobbies or entertainment", "isCorrect": false },
+          { "text": "Going out with friends or family", "isCorrect": true },
+          { "text": "Working on personal projects or goals", "isCorrect": false },
+          { "text": "Exploring new places or trying new activities", "isCorrect": false }
+        ],
+        "correctAnswer": "Going out with friends or family",
+        "explanation": "This suggests you recharge through social interaction and external activities."
+      },
+      {
+        "Id": 3,
+        "text": "In group discussions, you usually:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Share your thoughts and ideas actively", "isCorrect": true },
+          { "text": "Listen carefully and contribute when asked", "isCorrect": false },
+          { "text": "Ask questions to understand different perspectives", "isCorrect": false },
+          { "text": "Prefer to observe and process information first", "isCorrect": false }
+        ],
+        "correctAnswer": "Share your thoughts and ideas actively",
+        "explanation": "Active participation in group discussions is typical of extroverted personalities."
+      },
+      {
+        "Id": 4,
+        "text": "How do you handle stress?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Talk it through with friends or family", "isCorrect": true },
+          { "text": "Take time alone to think and process", "isCorrect": false },
+          { "text": "Engage in physical activity or exercise", "isCorrect": false },
+          { "text": "Focus on problem-solving and taking action", "isCorrect": false }
+        ],
+        "correctAnswer": "Talk it through with friends or family",
+        "explanation": "Seeking external support and verbal processing are common extroverted stress responses."
+      },
+      {
+        "Id": 5,
+        "text": "What energizes you most?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Being around people and social interaction", "isCorrect": true },
+          { "text": "Having quiet time for reflection", "isCorrect": false },
+          { "text": "Engaging in stimulating activities", "isCorrect": false },
+          { "text": "Working on meaningful projects", "isCorrect": false }
+        ],
+        "correctAnswer": "Being around people and social interaction",
+        "explanation": "Extroverts typically gain energy from social interaction and external stimulation."
+      },
+      {
+        "Id": 6,
+        "text": "How do you make decisions?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Discuss options with others and get their input", "isCorrect": true },
+          { "text": "Think it through carefully on your own", "isCorrect": false },
+          { "text": "Go with your gut feeling quickly", "isCorrect": false },
+          { "text": "Research and analyze all available information", "isCorrect": false }
+        ],
+        "correctAnswer": "Discuss options with others and get their input",
+        "explanation": "Extroverts often prefer to process decisions externally through discussion with others."
+      },
+      {
+        "Id": 7,
+        "text": "At parties or social gatherings, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Enjoy meeting new people and being in the center of activity", "isCorrect": true },
+          { "text": "Prefer to have deeper conversations with a few people", "isCorrect": false },
+          { "text": "Feel comfortable but leave when you've had enough", "isCorrect": false },
+          { "text": "Stay close to people you know well", "isCorrect": false }
+        ],
+        "correctAnswer": "Enjoy meeting new people and being in the center of activity",
+        "explanation": "Extroverts typically thrive in social settings and enjoy meeting new people."
+      },
+      {
+        "Id": 8,
+        "text": "How do you learn best?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Through discussion, group work, and verbal interaction", "isCorrect": true },
+          { "text": "By reading and studying independently", "isCorrect": false },
+          { "text": "Through hands-on experience and practice", "isCorrect": false },
+          { "text": "By observing and then trying it yourself", "isCorrect": false }
+        ],
+        "correctAnswer": "Through discussion, group work, and verbal interaction",
+        "explanation": "Extroverts often learn best through external processing and social interaction."
+      },
+      {
+        "Id": 9,
+        "text": "What type of work environment do you prefer?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Open, collaborative spaces with lots of interaction", "isCorrect": true },
+          { "text": "Quiet, private spaces where you can focus", "isCorrect": false },
+          { "text": "Flexible environments that change based on the task", "isCorrect": false },
+          { "text": "Structured environments with clear expectations", "isCorrect": false }
+        ],
+        "correctAnswer": "Open, collaborative spaces with lots of interaction",
+        "explanation": "Extroverts typically prefer work environments that facilitate social interaction and collaboration."
+      },
+      {
+        "Id": 10,
+        "text": "How do you handle conflict?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Address it directly and openly with all parties involved", "isCorrect": true },
+          { "text": "Take time to think about it before responding", "isCorrect": false },
+          { "text": "Try to understand all perspectives first", "isCorrect": false },
+          { "text": "Prefer to resolve it through a mediator", "isCorrect": false }
+        ],
+        "correctAnswer": "Address it directly and openly with all parties involved",
+        "explanation": "Extroverts often prefer direct, open communication when dealing with conflict."
       }
     ]
   },
@@ -303,6 +927,97 @@
         ],
         "correctAnswer": "Fight with everything you have, no matter the cost",
         "explanation": "This fierce protective instinct mirrors the bond between dragons and their chosen riders."
+},
+      {
+        "Id": 4,
+        "text": "What would be your weapon of choice at Basgiath?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Daggers - quick, precise, and always ready", "isCorrect": true },
+          { "text": "Sword - classic and versatile", "isCorrect": false },
+          { "text": "Bow - strategic and distance-focused", "isCorrect": false },
+          { "text": "Staff - defensive and tactical", "isCorrect": false }
+        ],
+        "correctAnswer": "Daggers - quick, precise, and always ready",
+        "explanation": "Like Violet, choosing daggers shows adaptability and the ability to turn perceived weakness into strength."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle academic pressure and competition?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Work harder and smarter than everyone else", "isCorrect": true },
+          { "text": "Form study groups and help each other", "isCorrect": false },
+          { "text": "Focus on your own progress and improvement", "isCorrect": false },
+          { "text": "Find ways to make learning more enjoyable", "isCorrect": false }
+        ],
+        "correctAnswer": "Work harder and smarter than everyone else",
+        "explanation": "This drive for excellence despite challenges mirrors the relentless determination required at Basgiath."
+      },
+      {
+        "Id": 6,
+        "text": "What's your biggest strength in high-pressure situations?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Quick thinking and adaptability", "isCorrect": true },
+          { "text": "Staying calm and composed", "isCorrect": false },
+          { "text": "Physical strength and endurance", "isCorrect": false },
+          { "text": "Strategic planning and foresight", "isCorrect": false }
+        ],
+        "correctAnswer": "Quick thinking and adaptability",
+        "explanation": "The ability to think quickly and adapt is crucial for surviving the challenges at Basgiath War College."
+      },
+      {
+        "Id": 7,
+        "text": "How do you view rules and authority?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Question them when they don't make sense", "isCorrect": true },
+          { "text": "Follow them to maintain order and safety", "isCorrect": false },
+          { "text": "Respect them but find creative workarounds", "isCorrect": false },
+          { "text": "Use them as guidelines but trust your judgment", "isCorrect": false }
+        ],
+        "correctAnswer": "Question them when they don't make sense",
+        "explanation": "Like Violet, questioning authority and rules shows independent thinking and moral courage."
+      },
+      {
+        "Id": 8,
+        "text": "What motivates you to keep going when everything seems hopeless?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The people counting on you", "isCorrect": true },
+          { "text": "Your personal goals and dreams", "isCorrect": false },
+          { "text": "The challenge itself", "isCorrect": false },
+          { "text": "Proving your doubters wrong", "isCorrect": false }
+        ],
+        "correctAnswer": "The people counting on you",
+        "explanation": "Being motivated by responsibility to others shows the selfless courage that dragons seek in their riders."
+      },
+      {
+        "Id": 9,
+        "text": "How do you deal with physical limitations or challenges?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Find creative ways to overcome them", "isCorrect": true },
+          { "text": "Accept them and work around them", "isCorrect": false },
+          { "text": "Push through despite the difficulty", "isCorrect": false },
+          { "text": "Ask for help when needed", "isCorrect": false }
+        ],
+        "correctAnswer": "Find creative ways to overcome them",
+        "explanation": "Like Violet overcoming her physical disadvantages, creativity in facing limitations shows true strength."
+      },
+      {
+        "Id": 10,
+        "text": "What's your approach to forming alliances and friendships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Cautious at first, but fiercely loyal once trust is earned", "isCorrect": true },
+          { "text": "Open and trusting until given reason not to be", "isCorrect": false },
+          { "text": "Strategic based on mutual benefit", "isCorrect": false },
+          { "text": "Slow to trust but quick to forgive", "isCorrect": false }
+        ],
+        "correctAnswer": "Cautious at first, but fiercely loyal once trust is earned",
+        "explanation": "This approach to relationships mirrors the careful but deep bonds formed between dragons and their chosen riders."
       }
     ]
   },
@@ -358,6 +1073,97 @@
         ],
         "correctAnswer": "Contemporary American",
         "explanation": "Atlas owns a successful contemporary American restaurant, showing how he built his life after his difficult childhood."
+},
+      {
+        "Id": 4,
+        "text": "What is the name of Lily's hometown?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Plethora", "isCorrect": true },
+          { "text": "Boston", "isCorrect": false },
+          { "text": "Cambridge", "isCorrect": false },
+          { "text": "Salem", "isCorrect": false }
+        ],
+        "correctAnswer": "Plethora",
+        "explanation": "Lily grew up in Plethora, Maine, a small town that shaped her early experiences."
+      },
+      {
+        "Id": 5,
+        "text": "What does Lily write in her journal throughout the book?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Letters to Ellen DeGeneres", "isCorrect": true },
+          { "text": "Poetry about her feelings", "isCorrect": false },
+          { "text": "Daily diary entries", "isCorrect": false },
+          { "text": "Business plans for her shop", "isCorrect": false }
+        ],
+        "correctAnswer": "Letters to Ellen DeGeneres",
+        "explanation": "Lily writes letters to Ellen DeGeneres as a way to process her thoughts and experiences."
+      },
+      {
+        "Id": 6,
+        "text": "What is the name of Lily's abusive father?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Andrew", "isCorrect": true },
+          { "text": "Anthony", "isCorrect": false },
+          { "text": "Arthur", "isCorrect": false },
+          { "text": "Albert", "isCorrect": false }
+        ],
+        "correctAnswer": "Andrew",
+        "explanation": "Andrew Bloom was Lily's father, whose abusive behavior deeply affected her childhood."
+      },
+      {
+        "Id": 7,
+        "text": "What does Ryle do for a living?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Neurosurgeon", "isCorrect": true },
+          { "text": "Cardiologist", "isCorrect": false },
+          { "text": "Emergency room doctor", "isCorrect": false },
+          { "text": "Pediatrician", "isCorrect": false }
+        ],
+        "correctAnswer": "Neurosurgeon",
+        "explanation": "Ryle Kincaid is a successful neurosurgeon, which adds complexity to his character."
+      },
+      {
+        "Id": 8,
+        "text": "What is the name of Lily and Ryle's daughter?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Emerson", "isCorrect": true },
+          { "text": "Emma", "isCorrect": false },
+          { "text": "Emily", "isCorrect": false },
+          { "text": "Ella", "isCorrect": false }
+        ],
+        "correctAnswer": "Emerson",
+        "explanation": "Emerson is Lily and Ryle's daughter, representing hope and a new beginning."
+      },
+      {
+        "Id": 9,
+        "text": "What triggers Lily's final decision to leave Ryle?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Thinking about what she'd tell her daughter in the same situation", "isCorrect": true },
+          { "text": "Atlas convincing her to leave", "isCorrect": false },
+          { "text": "Ryle hurting her again", "isCorrect": false },
+          { "text": "Her mother's advice", "isCorrect": false }
+        ],
+        "correctAnswer": "Thinking about what she'd tell her daughter in the same situation",
+        "explanation": "Lily's realization about what she would tell her daughter in the same situation gives her the strength to leave."
+      },
+      {
+        "Id": 10,
+        "text": "What is the significance of the title 'It Ends With Us'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Breaking the cycle of abuse for the next generation", "isCorrect": true },
+          { "text": "The end of Lily and Ryle's relationship", "isCorrect": false },
+          { "text": "The completion of Lily's personal growth", "isCorrect": false },
+          { "text": "The closing of her flower shop", "isCorrect": false }
+        ],
+        "correctAnswer": "Breaking the cycle of abuse for the next generation",
+        "explanation": "The title refers to Lily's determination to break the cycle of abuse so it ends with her generation."
       }
     ]
   },
@@ -413,6 +1219,97 @@
         ],
         "correctAnswer": "Your public reputation and career",
         "explanation": "Evelyn's greatest love story with Celia required sacrificing her public image to protect their relationship."
+},
+      {
+        "Id": 4,
+        "text": "What drives your ambition in life?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Creating something meaningful that outlasts you", "isCorrect": true },
+          { "text": "Achieving recognition and success", "isCorrect": false },
+          { "text": "Providing security for loved ones", "isCorrect": false },
+          { "text": "Personal growth and self-improvement", "isCorrect": false }
+        ],
+        "correctAnswer": "Creating something meaningful that outlasts you",
+        "explanation": "Like Evelyn, the desire to create lasting impact shows depth and long-term vision."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle public scrutiny and judgment?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Maintain your private truth regardless of public perception", "isCorrect": true },
+          { "text": "Try to control the narrative and set the record straight", "isCorrect": false },
+          { "text": "Ignore it and focus on what matters to you", "isCorrect": false },
+          { "text": "Adapt your behavior to meet expectations", "isCorrect": false }
+        ],
+        "correctAnswer": "Maintain your private truth regardless of public perception",
+        "explanation": "Evelyn's ability to hold onto her truth despite public misconceptions shows incredible strength."
+      },
+      {
+        "Id": 6,
+        "text": "What's your relationship with fame and attention?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "See it as a tool to achieve your goals", "isCorrect": true },
+          { "text": "Enjoy the validation and recognition", "isCorrect": false },
+          { "text": "Find it overwhelming and prefer privacy", "isCorrect": false },
+          { "text": "Use it to help causes you care about", "isCorrect": false }
+        ],
+        "correctAnswer": "See it as a tool to achieve your goals",
+        "explanation": "Evelyn's pragmatic approach to fame as a means to an end shows strategic thinking."
+      },
+      {
+        "Id": 7,
+        "text": "How do you handle regret and past mistakes?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Accept them as necessary parts of your journey", "isCorrect": true },
+          { "text": "Learn from them and try to make amends", "isCorrect": false },
+          { "text": "Focus on the present and future instead", "isCorrect": false },
+          { "text": "Use them to help others avoid similar mistakes", "isCorrect": false }
+        ],
+        "correctAnswer": "Accept them as necessary parts of your journey",
+        "explanation": "Evelyn's acceptance of her past choices, even difficult ones, shows self-forgiveness and wisdom."
+      },
+      {
+        "Id": 8,
+        "text": "What's your approach to telling your life story?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Share the complete truth, including the difficult parts", "isCorrect": true },
+          { "text": "Focus on the positive and inspiring moments", "isCorrect": false },
+          { "text": "Protect others by keeping some secrets", "isCorrect": false },
+          { "text": "Let your actions speak louder than words", "isCorrect": false }
+        ],
+        "correctAnswer": "Share the complete truth, including the difficult parts",
+        "explanation": "Evelyn's decision to tell her complete story shows courage and authenticity."
+      },
+      {
+        "Id": 9,
+        "text": "How do you define success in life?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Being true to yourself despite external pressures", "isCorrect": true },
+          { "text": "Achieving your professional goals", "isCorrect": false },
+          { "text": "Building meaningful relationships", "isCorrect": false },
+          { "text": "Making a positive impact on others", "isCorrect": false }
+        ],
+        "correctAnswer": "Being true to yourself despite external pressures",
+        "explanation": "Evelyn's ultimate success lies in her authenticity and staying true to her values."
+      },
+      {
+        "Id": 10,
+        "text": "What legacy do you want to leave behind?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A story that inspires others to live authentically", "isCorrect": true },
+          { "text": "Professional achievements that inspire others", "isCorrect": false },
+          { "text": "A loving family and strong relationships", "isCorrect": false },
+          { "text": "Positive changes in your community or field", "isCorrect": false }
+        ],
+        "correctAnswer": "A story that inspires others to live authentically",
+        "explanation": "Evelyn's legacy is about inspiring others to be true to themselves despite societal pressures."
       }
     ]
   },
@@ -468,6 +1365,97 @@
         ],
         "correctAnswer": "Intelligence and depth of character",
 "explanation": "Deep, meaningful connections are built on intellectual compatibility and understanding of character."
+},
+      {
+        "Id": 4,
+        "text": "What's your biggest strength in relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Loyalty and commitment to growth", "isCorrect": true },
+          { "text": "Emotional intelligence and empathy", "isCorrect": false },
+          { "text": "Communication and conflict resolution", "isCorrect": false },
+          { "text": "Spontaneity and keeping things interesting", "isCorrect": false }
+        ],
+        "correctAnswer": "Loyalty and commitment to growth",
+        "explanation": "Deep loyalty combined with commitment to mutual growth creates strong, lasting relationships."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle jealousy in relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Address it directly and work through the underlying issues", "isCorrect": true },
+          { "text": "Trust your partner and avoid jumping to conclusions", "isCorrect": false },
+          { "text": "Focus on building your own confidence and security", "isCorrect": false },
+          { "text": "Give your partner space and freedom", "isCorrect": false }
+        ],
+        "correctAnswer": "Address it directly and work through the underlying issues",
+        "explanation": "Direct communication about difficult emotions shows emotional maturity and strength."
+      },
+      {
+        "Id": 6,
+        "text": "What's your approach to compromise in relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Find solutions that honor both people's core needs", "isCorrect": true },
+          { "text": "Take turns getting what you want", "isCorrect": false },
+          { "text": "Focus on what's best for the relationship overall", "isCorrect": false },
+          { "text": "Be willing to sacrifice for your partner's happiness", "isCorrect": false }
+        ],
+        "correctAnswer": "Find solutions that honor both people's core needs",
+        "explanation": "True compromise addresses underlying needs rather than just surface-level wants."
+      },
+      {
+        "Id": 7,
+        "text": "How do you support your partner during difficult times?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Be present and offer practical help", "isCorrect": true },
+          { "text": "Give them space to process their emotions", "isCorrect": false },
+          { "text": "Try to solve their problems for them", "isCorrect": false },
+          { "text": "Encourage them to stay positive", "isCorrect": false }
+        ],
+        "correctAnswer": "Be present and offer practical help",
+        "explanation": "Consistent presence and practical support show deep care and commitment."
+      },
+      {
+        "Id": 8,
+        "text": "What's your view on personal growth within relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Both partners should continuously grow together", "isCorrect": true },
+          { "text": "Growth should happen naturally without pressure", "isCorrect": false },
+          { "text": "Focus on accepting each other as you are", "isCorrect": false },
+          { "text": "Individual growth is more important than couple growth", "isCorrect": false }
+        ],
+        "correctAnswer": "Both partners should continuously grow together",
+        "explanation": "Mutual growth and development strengthen relationships and keep them vibrant."
+      },
+      {
+        "Id": 9,
+        "text": "How do you maintain independence in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Maintain your own interests while sharing new experiences", "isCorrect": true },
+          { "text": "Keep some parts of your life completely separate", "isCorrect": false },
+          { "text": "Make decisions independently about your own life", "isCorrect": false },
+          { "text": "Spend regular time apart to maintain perspective", "isCorrect": false }
+        ],
+        "correctAnswer": "Maintain your own interests while sharing new experiences",
+        "explanation": "Healthy independence involves maintaining individuality while building shared experiences."
+      },
+      {
+        "Id": 10,
+        "text": "What's most important for long-term relationship success?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Shared values and mutual respect", "isCorrect": true },
+          { "text": "Strong physical and emotional attraction", "isCorrect": false },
+          { "text": "Effective communication and conflict resolution", "isCorrect": false },
+          { "text": "Similar life goals and plans", "isCorrect": false }
+        ],
+        "correctAnswer": "Shared values and mutual respect",
+        "explanation": "Shared values and mutual respect form the foundation for all other aspects of a successful relationship."
       }
     ]
   },
@@ -640,6 +1628,19 @@
         ],
         "correctAnswer": "Daily calls and messages of love",
         "explanation": "Words of affirmation love language needs verbal connection and emotional reassurance, especially important in long-distance relationships."
+},
+      {
+        "Id": 13,
+        "text": "What makes you feel most loved and valued?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "When someone remembers important details about you", "isCorrect": false },
+          { "text": "When someone makes time for you in their busy schedule", "isCorrect": false },
+          { "text": "When someone is physically affectionate with you", "isCorrect": false },
+          { "text": "When someone does something thoughtful without being asked", "isCorrect": true }
+        ],
+        "correctAnswer": "When someone does something thoughtful without being asked",
+        "explanation": "Unprompted acts of service show deep attention to your needs and genuine care for your wellbeing."
       }
     ]
   },
@@ -812,6 +1813,19 @@
         ],
         "correctAnswer": "I see it as an opportunity for mutual growth and learning",
         "explanation": "Healthy relationships involve continuous growth and learning together while maintaining individual identities."
+},
+      {
+        "Id": 13,
+        "text": "How do you show love to your partner?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "By anticipating their needs and helping before they ask", "isCorrect": true },
+          { "text": "By giving them your full attention and presence", "isCorrect": false },
+          { "text": "By expressing your feelings through words and affirmations", "isCorrect": false },
+          { "text": "By being physically close and affectionate", "isCorrect": false }
+        ],
+        "correctAnswer": "By anticipating their needs and helping before they ask",
+        "explanation": "Proactive acts of service that anticipate needs show deep love and attention to your partner's wellbeing."
       }
     ]
   },
@@ -984,6 +1998,19 @@
         ],
         "correctAnswer": "Think they just need time to mature and figure things out",
         "explanation": "Assuming someone will naturally change their financial habits rather than accepting current patterns of irresponsibility."
+},
+      {
+        "Id": 13,
+        "text": "What would be the hardest red flag for you to recognize?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Someone who gradually isolates you from support systems", "isCorrect": true },
+          { "text": "Someone who is inconsistent with their words and actions", "isCorrect": false },
+          { "text": "Someone who doesn't respect your boundaries", "isCorrect": false },
+          { "text": "Someone who has anger management issues", "isCorrect": false }
+        ],
+        "correctAnswer": "Someone who gradually isolates you from support systems",
+        "explanation": "Gradual isolation is often overlooked because it happens slowly and can be rationalized as wanting to spend more time together."
       }
     ]
   }

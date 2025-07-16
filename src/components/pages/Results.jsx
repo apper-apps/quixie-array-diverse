@@ -51,12 +51,8 @@ const Results = () => {
   if (loading) return <Loading message="Loading results..." />;
   if (error) return <Error message={error} onRetry={handleRetry} />;
   if (!result) return <Error message="Results not found" />;
-
-  const percentage = Math.round((result.score / result.totalQuestions) * 100);
-  const getScoreColor = (score) => {
-    if (score >= 80) return "success";
-    if (score >= 60) return "warning";
-    return "error";
+const getAnalysisColor = () => {
+    return "primary"; // All analyses use primary color
   };
 
   return (
@@ -67,9 +63,9 @@ const Results = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-8"
-        >
+>
           <h1 className="text-3xl font-display font-bold mb-2">
-            Quiz Results
+            Your Analysis
           </h1>
           <p className="text-gray-400">
             {result.quiz?.title}
@@ -83,46 +79,43 @@ const Results = () => {
           transition={{ delay: 0.2 }}
           className="mb-8"
         >
-          <Card className="text-center">
+<Card className="text-center">
             <div className="mb-6">
               <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-                <span className="text-3xl font-bold text-white">
-                  {percentage}%
-                </span>
+                <ApperIcon name="Brain" size={32} className="text-white" />
               </div>
               <h2 className="text-2xl font-display font-bold mb-2">
-                Great Job!
+                Analysis Complete
               </h2>
               <p className="text-gray-400">
-                You scored {result.score} out of {result.totalQuestions} questions correctly
+                Based on your {result.totalQuestions} responses, here's your personalized analysis
               </p>
             </div>
 
-            <div className="flex justify-center gap-4 mb-6">
+<div className="flex justify-center gap-4 mb-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">
-                  {result.score}
-                </div>
-                <div className="text-sm text-gray-400">Correct</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-error">
-                  {result.totalQuestions - result.score}
-                </div>
-                <div className="text-sm text-gray-400">Wrong</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-warning">
                   {result.totalQuestions}
                 </div>
-                <div className="text-sm text-gray-400">Total</div>
+                <div className="text-sm text-gray-400">Questions</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-secondary">
+                  <ApperIcon name="Brain" size={24} />
+                </div>
+                <div className="text-sm text-gray-400">Analyzed</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-accent">
+                  <ApperIcon name="Star" size={24} />
+                </div>
+                <div className="text-sm text-gray-400">Personalized</div>
               </div>
             </div>
 
-            <Badge variant={getScoreColor(percentage)} className="mb-6">
-              {percentage >= 80 ? "Excellent!" : percentage >= 60 ? "Good!" : "Keep Practicing!"}
+            <Badge variant={getAnalysisColor()} className="mb-6">
+              Personalized Analysis
             </Badge>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 onClick={handleShare}
@@ -148,7 +141,7 @@ const Results = () => {
           </Card>
         </motion.div>
 
-        {/* Detailed Results */}
+{/* Analysis Results */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -157,43 +150,34 @@ const Results = () => {
         >
           <Card>
             <h3 className="text-xl font-display font-semibold mb-4">
-              Question Breakdown
+              Your Response Summary
             </h3>
             <div className="space-y-4">
               {result.answers?.map((answer, index) => (
                 <div
                   key={index}
-                  className={`p-4 rounded-lg border ${
-                    answer.correct
-                      ? "bg-success/10 border-success/20"
-                      : "bg-error/10 border-error/20"
-                  }`}
+                  className="p-4 rounded-lg border bg-primary/10 border-primary/20"
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <ApperIcon
-                      name={answer.correct ? "Check" : "X"}
+                      name="MessageCircle"
                       size={16}
-                      className={answer.correct ? "text-success" : "text-error"}
+                      className="text-primary"
                     />
                     <span className="font-medium">
                       Question {index + 1}
                     </span>
                   </div>
                   <p className="text-sm text-gray-400">
-                    Your answer: {answer.selectedAnswer || "No answer"}
+                    Your response: {answer.selectedAnswer || "No response"}
                   </p>
-                  {!answer.correct && (
-                    <p className="text-sm text-success mt-1">
-                      Correct answer: {answer.correctAnswer}
-                    </p>
-                  )}
                 </div>
               ))}
             </div>
           </Card>
         </motion.div>
 
-        {/* Personalized Feedback */}
+{/* Personalized Analysis */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -202,19 +186,11 @@ const Results = () => {
         >
           <Card>
             <h3 className="text-xl font-display font-semibold mb-4">
-              Your Feedback
+              Your Personalized Analysis
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              {result.feedback || 
-                `Based on your ${percentage}% score, you've shown ${
-                  percentage >= 80 ? "excellent knowledge" : 
-                  percentage >= 60 ? "good understanding" : 
-                  "room for improvement"
-                } in this topic. ${
-                  percentage >= 80 ? "Keep up the great work!" :
-                  percentage >= 60 ? "With a bit more practice, you'll master this!" :
-                  "Don't worry - every expert was once a beginner!"
-                }`
+              {result.analysis || 
+                "Based on your responses, you demonstrate unique patterns in your thinking and decision-making. Your answers reveal interesting insights about your personality, preferences, and approach to various situations. This analysis is tailored specifically to your response patterns and provides a personalized perspective on your characteristics."
               }
             </p>
           </Card>
