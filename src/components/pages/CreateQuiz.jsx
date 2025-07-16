@@ -32,12 +32,13 @@ const CreateQuiz = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const categories = [
+const categories = [
     "Personality",
     "Trivia", 
     "Pop Culture",
     "Hypotheticals",
-    "General Knowledge"
+    "General Knowledge",
+    "Love and Relationships"
   ];
 
   const steps = [
@@ -120,9 +121,9 @@ const CreateQuiz = () => {
     setCurrentQuestion({ ...currentQuestion, options: newOptions });
   };
 
-  const handlePublish = async () => {
-    if (quizData.questions.length === 0) {
-      toast.error("Please add at least one question");
+const handlePublish = async () => {
+    if (quizData.questions.length < 10) {
+      toast.error("Please add at least 10 questions before publishing");
       return;
     }
 
@@ -345,7 +346,7 @@ const CreateQuiz = () => {
                       <Button type="submit" variant="secondary">
                         Add Question
                       </Button>
-                      {quizData.questions.length > 0 && (
+{quizData.questions.length >= 10 && (
                         <Button
                           type="button"
                           variant="primary"
@@ -353,6 +354,11 @@ const CreateQuiz = () => {
                         >
                           Preview Quiz
                         </Button>
+                      )}
+                      {quizData.questions.length > 0 && quizData.questions.length < 10 && (
+                        <div className="text-sm text-gray-400 mt-2">
+                          Add {10 - quizData.questions.length} more question{10 - quizData.questions.length !== 1 ? 's' : ''} to preview (minimum 10 required)
+                        </div>
                       )}
                     </div>
                   </div>

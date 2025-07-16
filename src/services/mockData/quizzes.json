@@ -470,5 +470,521 @@
 "explanation": "Deep, meaningful connections are built on intellectual compatibility and understanding of character."
       }
     ]
+  },
+  {
+    "Id": 11,
+    "title": "What's Your Love Language?",
+    "description": "Discover how you express and receive love through Dr. Gary Chapman's five love languages. Understanding your love language can transform your relationships and help you connect more deeply with your partner.",
+    "category": "Love and Relationships",
+    "creatorId": "user-11",
+    "participantCount": 2847,
+    "averageScore": 88,
+    "createdAt": "2024-01-17T10:30:00Z",
+    "creator": {
+      "username": "RelationshipCoach",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "When your partner comes home from work, what makes you feel most loved?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "They give you a warm hug and kiss", "isCorrect": false },
+          { "text": "They tell you how much they missed you", "isCorrect": true },
+          { "text": "They bring you a small surprise or gift", "isCorrect": false },
+          { "text": "They immediately help with dinner or chores", "isCorrect": false }
+        ],
+        "correctAnswer": "They tell you how much they missed you",
+        "explanation": "Words of affirmation make you feel valued and loved through verbal appreciation and emotional connection."
+      },
+      {
+        "Id": 2,
+        "text": "How do you typically express love to your partner?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "By doing thoughtful things for them", "isCorrect": false },
+          { "text": "By giving them compliments and encouragement", "isCorrect": true },
+          { "text": "By cuddling and being physically close", "isCorrect": false },
+          { "text": "By giving them meaningful gifts", "isCorrect": false }
+        ],
+        "correctAnswer": "By giving them compliments and encouragement",
+        "explanation": "Expressing love through positive words and affirmations is a key indicator of the words of affirmation love language."
+      },
+      {
+        "Id": 3,
+        "text": "What would hurt your feelings most in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Being criticized or spoken to harshly", "isCorrect": true },
+          { "text": "Not spending enough time together", "isCorrect": false },
+          { "text": "Lack of physical affection", "isCorrect": false },
+          { "text": "Never receiving thoughtful gifts", "isCorrect": false }
+        ],
+        "correctAnswer": "Being criticized or spoken to harshly",
+        "explanation": "People with words of affirmation as their love language are particularly sensitive to negative words and criticism."
+      },
+      {
+        "Id": 4,
+        "text": "When you're feeling disconnected from your partner, what helps most?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Having a deep conversation together", "isCorrect": false },
+          { "text": "Spending uninterrupted time together", "isCorrect": true },
+          { "text": "Physical intimacy and closeness", "isCorrect": false },
+          { "text": "Doing something helpful for each other", "isCorrect": false }
+        ],
+        "correctAnswer": "Spending uninterrupted time together",
+        "explanation": "Quality time as a love language emphasizes the importance of focused, undivided attention and presence."
+      },
+      {
+        "Id": 5,
+        "text": "What type of date would make you feel most cherished?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A surprise date they planned just for you", "isCorrect": false },
+          { "text": "A quiet dinner where you can talk without distractions", "isCorrect": true },
+          { "text": "A massage or spa day together", "isCorrect": false },
+          { "text": "Receiving a thoughtful, personalized gift", "isCorrect": false }
+        ],
+        "correctAnswer": "A quiet dinner where you can talk without distractions",
+        "explanation": "Quality time emphasizes being present and engaged, with full attention on each other."
+      },
+      {
+        "Id": 6,
+        "text": "How do you prefer to receive apologies?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Through heartfelt words and explanations", "isCorrect": false },
+          { "text": "By them making time to discuss what happened", "isCorrect": false },
+          { "text": "Through physical comfort and affection", "isCorrect": true },
+          { "text": "By them doing something to make up for it", "isCorrect": false }
+        ],
+        "correctAnswer": "Through physical comfort and affection",
+        "explanation": "Physical touch as a love language values physical connection and comfort, especially during emotional moments."
+      },
+      {
+        "Id": 7,
+        "text": "What makes you feel most secure in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Regular verbal reassurance of their love", "isCorrect": false },
+          { "text": "Consistent quality time together", "isCorrect": false },
+          { "text": "Frequent physical affection throughout the day", "isCorrect": true },
+          { "text": "Thoughtful actions that show they care", "isCorrect": false }
+        ],
+        "correctAnswer": "Frequent physical affection throughout the day",
+        "explanation": "Physical touch love language finds security and connection through regular physical contact and affection."
+      },
+      {
+        "Id": 8,
+        "text": "When you're stressed, what comfort from your partner helps most?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Encouraging words and emotional support", "isCorrect": false },
+          { "text": "Their presence and undivided attention", "isCorrect": false },
+          { "text": "Physical comfort like hugs or back rubs", "isCorrect": false },
+          { "text": "Taking care of tasks to reduce your burden", "isCorrect": true }
+        ],
+        "correctAnswer": "Taking care of tasks to reduce your burden",
+        "explanation": "Acts of service as a love language values practical help and support through actions that make life easier."
+      },
+      {
+        "Id": 9,
+        "text": "What would be the most meaningful anniversary gift?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A heartfelt letter expressing their love", "isCorrect": false },
+          { "text": "A weekend getaway just for the two of you", "isCorrect": false },
+          { "text": "A piece of jewelry or something you've wanted", "isCorrect": true },
+          { "text": "Taking care of all the household tasks for a week", "isCorrect": false }
+        ],
+        "correctAnswer": "A piece of jewelry or something you've wanted",
+        "explanation": "Receiving gifts as a love language values thoughtful presents as symbols of love and consideration."
+      },
+      {
+        "Id": 10,
+        "text": "How do you know your partner truly loves you?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "They consistently tell you and express appreciation", "isCorrect": false },
+          { "text": "They prioritize spending time with you", "isCorrect": false },
+          { "text": "They're physically affectionate throughout the day", "isCorrect": false },
+          { "text": "They remember important details and give thoughtful gifts", "isCorrect": true }
+        ],
+        "correctAnswer": "They remember important details and give thoughtful gifts",
+        "explanation": "The receiving gifts love language sees thoughtfulness and attention to detail in gift-giving as expressions of deep love."
+      },
+      {
+        "Id": 11,
+        "text": "What makes you feel most appreciated in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "When they notice and thank you for things you do", "isCorrect": false },
+          { "text": "When they choose to spend their free time with you", "isCorrect": false },
+          { "text": "When they're physically affectionate in public", "isCorrect": false },
+          { "text": "When they help without being asked", "isCorrect": true }
+        ],
+        "correctAnswer": "When they help without being asked",
+        "explanation": "Acts of service love language feels most appreciated when partners proactively help and support through actions."
+      },
+      {
+        "Id": 12,
+        "text": "In a long-distance relationship, what would help you feel most connected?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Daily calls and messages of love", "isCorrect": true },
+          { "text": "Scheduled video dates and quality conversations", "isCorrect": false },
+          { "text": "Care packages and surprise deliveries", "isCorrect": false },
+          { "text": "Handling things for you from afar (bills, orders, etc.)", "isCorrect": false }
+        ],
+        "correctAnswer": "Daily calls and messages of love",
+        "explanation": "Words of affirmation love language needs verbal connection and emotional reassurance, especially important in long-distance relationships."
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "title": "Are You Ready for a Serious Relationship?",
+    "description": "Evaluate your emotional readiness, relationship skills, and life situation to determine if you're prepared for a committed partnership. Honest self-assessment is the first step to healthy relationships.",
+    "category": "Love and Relationships",
+    "creatorId": "user-12",
+    "participantCount": 1923,
+    "averageScore": 76,
+    "createdAt": "2024-01-16T15:45:00Z",
+    "creator": {
+      "username": "TherapistTalk",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "How do you handle conflicts in relationships?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I communicate openly and work toward resolution", "isCorrect": true },
+          { "text": "I tend to avoid confrontation and hope issues resolve themselves", "isCorrect": false },
+          { "text": "I get defensive and struggle to see the other person's perspective", "isCorrect": false },
+          { "text": "I shut down emotionally until the conflict passes", "isCorrect": false }
+        ],
+        "correctAnswer": "I communicate openly and work toward resolution",
+        "explanation": "Healthy conflict resolution through open communication is essential for serious relationships and shows emotional maturity."
+      },
+      {
+        "Id": 2,
+        "text": "How comfortable are you with emotional intimacy?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Very comfortable - I can share my feelings openly", "isCorrect": true },
+          { "text": "Somewhat comfortable - I'm working on opening up more", "isCorrect": false },
+          { "text": "Uncomfortable - I prefer to keep my feelings private", "isCorrect": false },
+          { "text": "I'm not sure - I haven't had much experience with deep emotional connection", "isCorrect": false }
+        ],
+        "correctAnswer": "Very comfortable - I can share my feelings openly",
+        "explanation": "Emotional intimacy is fundamental to serious relationships, requiring vulnerability and openness with your partner."
+      },
+      {
+        "Id": 3,
+        "text": "How do you manage your own emotional needs?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I practice self-care and can regulate my emotions well", "isCorrect": true },
+          { "text": "I struggle sometimes but I'm working on it", "isCorrect": false },
+          { "text": "I often rely on others to make me feel better", "isCorrect": false },
+          { "text": "I tend to suppress my emotions rather than deal with them", "isCorrect": false }
+        ],
+        "correctAnswer": "I practice self-care and can regulate my emotions well",
+        "explanation": "Self-awareness and emotional regulation are crucial for healthy relationships, preventing codependency and emotional burden on partners."
+      },
+      {
+        "Id": 4,
+        "text": "What's your approach to commitment?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I value commitment and am ready to invest in a long-term relationship", "isCorrect": true },
+          { "text": "I want commitment but I'm scared of making the wrong choice", "isCorrect": false },
+          { "text": "I prefer to keep my options open and see what happens", "isCorrect": false },
+          { "text": "Commitment feels overwhelming and restrictive to me", "isCorrect": false }
+        ],
+        "correctAnswer": "I value commitment and am ready to invest in a long-term relationship",
+        "explanation": "Readiness for commitment involves being emotionally prepared to invest time, energy, and emotions into building a future together."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle your partner's flaws and imperfections?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I accept them as part of who they are", "isCorrect": true },
+          { "text": "I try to help them improve and change", "isCorrect": false },
+          { "text": "I get frustrated and wish they were different", "isCorrect": false },
+          { "text": "I focus on their positive qualities and ignore the negative", "isCorrect": false }
+        ],
+        "correctAnswer": "I accept them as part of who they are",
+        "explanation": "Accepting your partner's imperfections while loving them as they are is essential for long-term relationship success."
+      },
+      {
+        "Id": 6,
+        "text": "How financially stable and responsible are you?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I'm financially stable and manage my money responsibly", "isCorrect": true },
+          { "text": "I'm working on improving my financial situation", "isCorrect": false },
+          { "text": "I struggle with money management and have significant debt", "isCorrect": false },
+          { "text": "I haven't really thought about finances in relation to relationships", "isCorrect": false }
+        ],
+        "correctAnswer": "I'm financially stable and manage my money responsibly",
+        "explanation": "Financial stability and responsibility are important for serious relationships, reducing stress and enabling shared future planning."
+      },
+      {
+        "Id": 7,
+        "text": "What are your expectations for a serious relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A partnership where we support each other's growth", "isCorrect": true },
+          { "text": "Someone who completes me and makes me happy", "isCorrect": false },
+          { "text": "A person who fits perfectly into my existing life", "isCorrect": false },
+          { "text": "Someone who will fulfill all my emotional needs", "isCorrect": false }
+        ],
+        "correctAnswer": "A partnership where we support each other's growth",
+        "explanation": "Healthy relationships involve mutual support and growth rather than expecting a partner to complete or fix you."
+      },
+      {
+        "Id": 8,
+        "text": "How do you handle time management between a relationship and other life areas?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I can balance relationship time with work, friends, and personal interests", "isCorrect": true },
+          { "text": "I tend to prioritize my relationship above everything else", "isCorrect": false },
+          { "text": "I struggle to make time for relationships with my busy schedule", "isCorrect": false },
+          { "text": "I haven't really thought about how to balance these areas", "isCorrect": false }
+        ],
+        "correctAnswer": "I can balance relationship time with work, friends, and personal interests",
+        "explanation": "Healthy relationships require balance - maintaining individual identity while building a life together."
+      },
+      {
+        "Id": 9,
+        "text": "How do you communicate your needs in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I express my needs clearly and directly", "isCorrect": true },
+          { "text": "I hint at what I need and hope my partner picks up on it", "isCorrect": false },
+          { "text": "I don't like to burden my partner with my needs", "isCorrect": false },
+          { "text": "I expect my partner to know what I need without me saying it", "isCorrect": false }
+        ],
+        "correctAnswer": "I express my needs clearly and directly",
+        "explanation": "Clear, direct communication about needs is essential for relationship success and prevents misunderstandings and resentment."
+      },
+      {
+        "Id": 10,
+        "text": "What's your relationship with yourself like?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I have a healthy relationship with myself and enjoy my own company", "isCorrect": true },
+          { "text": "I'm working on self-improvement and building self-confidence", "isCorrect": false },
+          { "text": "I don't really like being alone and prefer to be with others", "isCorrect": false },
+          { "text": "I'm very critical of myself and struggle with self-worth", "isCorrect": false }
+        ],
+        "correctAnswer": "I have a healthy relationship with myself and enjoy my own company",
+        "explanation": "A healthy relationship with yourself is the foundation for healthy relationships with others."
+      },
+      {
+        "Id": 11,
+        "text": "How do you handle your partner's relationship with their friends and family?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I support their relationships and understand they're important", "isCorrect": true },
+          { "text": "I feel a bit jealous but try to be understanding", "isCorrect": false },
+          { "text": "I prefer to be their main priority and focus", "isCorrect": false },
+          { "text": "I feel threatened by their close relationships with others", "isCorrect": false }
+        ],
+        "correctAnswer": "I support their relationships and understand they're important",
+        "explanation": "Supporting your partner's other relationships shows emotional maturity and security in the relationship."
+      },
+      {
+        "Id": 12,
+        "text": "How do you envision growing and changing within a serious relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I see it as an opportunity for mutual growth and learning", "isCorrect": true },
+          { "text": "I hope my partner will help me become a better person", "isCorrect": false },
+          { "text": "I expect we'll both adapt to become more compatible", "isCorrect": false },
+          { "text": "I believe we should accept each other exactly as we are now", "isCorrect": false }
+        ],
+        "correctAnswer": "I see it as an opportunity for mutual growth and learning",
+        "explanation": "Healthy relationships involve continuous growth and learning together while maintaining individual identities."
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "title": "Which Relationship Red Flag Are You Most Likely to Ignore?",
+    "description": "Discover which warning signs you might overlook in relationships due to your personality, past experiences, or blind spots. Awareness is the first step to healthier relationship choices.",
+    "category": "Love and Relationships",
+    "creatorId": "user-13",
+    "participantCount": 2614,
+    "averageScore": 73,
+    "createdAt": "2024-01-15T20:15:00Z",
+    "creator": {
+      "username": "RelationshipReality",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "When someone cancels plans with you last minute repeatedly, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Make excuses for them because they seem genuinely busy", "isCorrect": true },
+          { "text": "Feel annoyed but don't say anything to avoid conflict", "isCorrect": false },
+          { "text": "Assume they're just not that interested in spending time with you", "isCorrect": false },
+          { "text": "Address it directly and ask for more reliable communication", "isCorrect": false }
+        ],
+        "correctAnswer": "Make excuses for them because they seem genuinely busy",
+        "explanation": "Making excuses for inconsistent behavior is a common way people ignore red flags about reliability and respect."
+      },
+      {
+        "Id": 2,
+        "text": "How do you typically respond to someone who gets angry when you spend time with friends?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I understand they just want to spend time with me", "isCorrect": false },
+          { "text": "I feel guilty and start limiting time with friends", "isCorrect": true },
+          { "text": "I get defensive and argue about my right to have friends", "isCorrect": false },
+          { "text": "I see it as a major red flag and address it immediately", "isCorrect": false }
+        ],
+        "correctAnswer": "I feel guilty and start limiting time with friends",
+        "explanation": "Feeling guilty and changing your behavior to accommodate controlling tendencies is a sign of ignoring isolation tactics."
+      },
+      {
+        "Id": 3,
+        "text": "When someone you're dating talks negatively about all their exes, you think:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "They've just had bad luck with relationships", "isCorrect": true },
+          { "text": "At least they're being honest about their past", "isCorrect": false },
+          { "text": "They probably have unresolved issues to work through", "isCorrect": false },
+          { "text": "This is a red flag about how they handle conflicts", "isCorrect": false }
+        ],
+        "correctAnswer": "They've just had bad luck with relationships",
+        "explanation": "Rationalizing when someone speaks poorly about all their exes often indicates ignoring patterns of blame-shifting and lack of accountability."
+      },
+      {
+        "Id": 4,
+        "text": "If someone you're interested in is very charming in public but treats service workers poorly, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Focus on how well they treat you personally", "isCorrect": true },
+          { "text": "Feel uncomfortable but don't want to judge them", "isCorrect": false },
+          { "text": "Notice it but assume they're just having a bad day", "isCorrect": false },
+          { "text": "See it as a clear indicator of their true character", "isCorrect": false }
+        ],
+        "correctAnswer": "Focus on how well they treat you personally",
+        "explanation": "Overlooking how someone treats others while focusing only on their treatment of you is a common way to ignore character red flags."
+      },
+      {
+        "Id": 5,
+        "text": "How do you handle it when someone pushes your physical boundaries?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I assume they didn't realize they were crossing a line", "isCorrect": false },
+          { "text": "I feel uncomfortable but don't want to seem uptight", "isCorrect": true },
+          { "text": "I clearly communicate my boundaries and expect respect", "isCorrect": false },
+          { "text": "I remove myself from the situation immediately", "isCorrect": false }
+        ],
+        "correctAnswer": "I feel uncomfortable but don't want to seem uptight",
+        "explanation": "Minimizing your own discomfort to avoid seeming 'difficult' is a common way people ignore boundary violations."
+      },
+      {
+        "Id": 6,
+        "text": "When someone you're dating frequently checks your phone or social media, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Think it shows they care about our relationship", "isCorrect": false },
+          { "text": "Feel flattered that they're so interested in my life", "isCorrect": false },
+          { "text": "Understand they might have trust issues from past relationships", "isCorrect": true },
+          { "text": "See it as a violation of privacy and a red flag", "isCorrect": false }
+        ],
+        "correctAnswer": "Understand they might have trust issues from past relationships",
+        "explanation": "Rationalizing invasive behavior as stemming from past hurt is a way people ignore controlling and jealous tendencies."
+      },
+      {
+        "Id": 7,
+        "text": "How do you react when someone love-bombs you early in a relationship?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I feel swept off my feet and enjoy the intense attention", "isCorrect": true },
+          { "text": "I appreciate the effort but wonder if it's sustainable", "isCorrect": false },
+          { "text": "I feel overwhelmed and need to slow things down", "isCorrect": false },
+          { "text": "I recognize it as a potential manipulation tactic", "isCorrect": false }
+        ],
+        "correctAnswer": "I feel swept off my feet and enjoy the intense attention",
+        "explanation": "Getting caught up in the excitement of love-bombing while ignoring the intensity and speed as red flags."
+      },
+      {
+        "Id": 8,
+        "text": "When someone consistently makes you feel like you're 'too sensitive' or 'overreacting,' you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Start questioning your own perceptions and reactions", "isCorrect": true },
+          { "text": "Feel frustrated but try to be less emotional", "isCorrect": false },
+          { "text": "Recognize this as gaslighting and address it", "isCorrect": false },
+          { "text": "Seek validation from friends about your reactions", "isCorrect": false }
+        ],
+        "correctAnswer": "Start questioning your own perceptions and reactions",
+        "explanation": "Self-doubt and questioning your own reality is a sign of ignoring gaslighting behavior."
+      },
+      {
+        "Id": 9,
+        "text": "How do you handle someone who refuses to discuss future plans or commitment?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I respect their need to take things slow", "isCorrect": false },
+          { "text": "I assume they'll open up when they're ready", "isCorrect": true },
+          { "text": "I feel uncertain but don't want to pressure them", "isCorrect": false },
+          { "text": "I see it as a sign we want different things", "isCorrect": false }
+        ],
+        "correctAnswer": "I assume they'll open up when they're ready",
+        "explanation": "Assuming someone will change their communication style about important topics rather than accepting current behavior patterns."
+      },
+      {
+        "Id": 10,
+        "text": "When someone you're dating has a substance abuse problem, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Believe you can help them overcome it with love and support", "isCorrect": true },
+          { "text": "Feel concerned but hope they'll get help on their own", "isCorrect": false },
+          { "text": "Recognize it's not your responsibility to fix them", "isCorrect": false },
+          { "text": "See it as a dealbreaker for a healthy relationship", "isCorrect": false }
+        ],
+        "correctAnswer": "Believe you can help them overcome it with love and support",
+        "explanation": "The savior complex leads people to ignore serious red flags by believing they can 'fix' or 'save' their partner."
+      },
+      {
+        "Id": 11,
+        "text": "How do you respond when someone gives you the silent treatment during conflicts?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "I try harder to apologize and make things right", "isCorrect": true },
+          { "text": "I give them space to cool down and process", "isCorrect": false },
+          { "text": "I feel frustrated by their lack of communication", "isCorrect": false },
+          { "text": "I see it as emotional manipulation and address it", "isCorrect": false }
+        ],
+        "correctAnswer": "I try harder to apologize and make things right",
+        "explanation": "Responding to silent treatment by over-apologizing often indicates ignoring manipulative communication patterns."
+      },
+      {
+        "Id": 12,
+        "text": "When someone you're dating is financially irresponsible, you:",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Offer to help them budget and manage their money", "isCorrect": false },
+          { "text": "Think they just need time to mature and figure things out", "isCorrect": true },
+          { "text": "Worry about how it might affect your future together", "isCorrect": false },
+          { "text": "See it as a fundamental incompatibility", "isCorrect": false }
+        ],
+        "correctAnswer": "Think they just need time to mature and figure things out",
+        "explanation": "Assuming someone will naturally change their financial habits rather than accepting current patterns of irresponsibility."
+      }
+    ]
   }
 ]
