@@ -12,9 +12,9 @@ const QuizGrid = ({ title, category, limit }) => {
   const [filteredQuizzes, setFilteredQuizzes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState("All");
+const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["Personality", "Trivia", "Pop Culture", "Hypotheticals", "General Knowledge"];
+  const categories = ["Personality", "Trivia", "Pop Culture", "Hypotheticals", "General Knowledge", "Love and Relationships"];
 
   useEffect(() => {
     loadQuizzes();

@@ -7,7 +7,7 @@ import QuizGrid from "@/components/organisms/QuizGrid";
 const Categories = () => {
   const [searchParams] = useSearchParams();
   const initialCategory = searchParams.get("category") || "All";
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
+const [selectedCategory, setSelectedCategory] = useState(initialCategory);
 
   const categories = [
     {
@@ -45,6 +45,12 @@ const Categories = () => {
       icon: "Book",
       color: "from-red-500 to-pink-500",
       description: "Test your general knowledge and learn new facts"
+    },
+    {
+      name: "Love and Relationships",
+      icon: "Heart",
+      color: "from-pink-500 to-rose-500",
+      description: "Explore relationship dynamics and romantic compatibility"
     }
   ];
 

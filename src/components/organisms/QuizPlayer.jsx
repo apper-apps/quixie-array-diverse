@@ -1,39 +1,22 @@
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { toast } from "react-toastify";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
 import Card from "@/components/atoms/Card";
 import ProgressBar from "@/components/atoms/ProgressBar";
+import Button from "@/components/atoms/Button";
 import { cn } from "@/utils/cn";
 
 const QuizPlayer = ({ quiz, onComplete }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [answers, setAnswers] = useState([]);
+const [answers, setAnswers] = useState([]);
   const [showFeedback, setShowFeedback] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(30);
   const [isAnswered, setIsAnswered] = useState(false);
 
   const question = quiz.questions[currentQuestion];
   const totalQuestions = quiz.questions.length;
   const progress = ((currentQuestion + 1) / totalQuestions) * 100;
-
-  useEffect(() => {
-    if (timeLeft > 0 && !isAnswered) {
-      const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
-      return () => clearTimeout(timer);
-    } else if (timeLeft === 0 && !isAnswered) {
-      handleTimeUp();
-    }
-  }, [timeLeft, isAnswered]);
-
-  const handleTimeUp = () => {
-    setIsAnswered(true);
-    setShowFeedback(true);
-    setAnswers([...answers, { questionId: question.Id, selectedAnswer: null, correct: false }]);
-    toast.error("Time's up!");
-  };
 
 const handleAnswerSelect = (answer) => {
     if (isAnswered) return;
@@ -50,12 +33,11 @@ const handleAnswerSelect = (answer) => {
     toast.success("Answer recorded!");
   };
 
-  const handleNextQuestion = () => {
+const handleNextQuestion = () => {
     if (currentQuestion < totalQuestions - 1) {
       setCurrentQuestion(currentQuestion + 1);
       setSelectedAnswer(null);
       setShowFeedback(false);
-      setTimeLeft(30);
       setIsAnswered(false);
 } else {
       // Quiz complete - pass answers for analysis
@@ -75,23 +57,14 @@ const handleAnswerSelect = (answer) => {
   return (
     <div className="max-w-4xl mx-auto">
       {/* Progress Header */}
-      <div className="mb-6">
+<div className="mb-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-400">
               Question {currentQuestion + 1} of {totalQuestions}
             </span>
-            <div className="flex items-center gap-2">
-              <ApperIcon name="Clock" size={16} className="text-gray-400" />
-              <span className={cn(
-                "text-sm font-medium",
-                timeLeft <= 5 ? "text-error" : "text-gray-300"
-              )}>
-                {timeLeft}s
-              </span>
-            </div>
           </div>
-<div className="text-sm text-gray-400">
+          <div className="text-sm text-gray-400">
             Answered: {answers.length}
           </div>
         </div>
@@ -163,6 +136,7 @@ className={cn(
       </Card>
 
       {/* Feedback Section */}
+{/* Feedback Section */}
       <AnimatePresence>
         {showFeedback && (
           <motion.div
@@ -171,7 +145,7 @@ className={cn(
             exit={{ opacity: 0, y: -20 }}
             className="mb-6"
           >
-<Card className="bg-surface/50">
+            <Card className="bg-surface/50">
               <div className="flex items-start gap-3">
                 <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/20">
                   <ApperIcon 
@@ -185,7 +159,7 @@ className={cn(
                     Answer Recorded
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Your response has been saved. Continue to see your personalized analysis.
+                    Your response has been saved. Take your time with the next question.
                   </p>
                 </div>
               </div>
@@ -195,7 +169,6 @@ className={cn(
       </AnimatePresence>
 
       {/* Navigation */}
-      <div className="flex justify-between items-center">
         <Button
           variant="ghost"
           onClick={() => {
@@ -203,7 +176,6 @@ className={cn(
               setCurrentQuestion(currentQuestion - 1);
               setSelectedAnswer(null);
               setShowFeedback(false);
-              setTimeLeft(30);
               setIsAnswered(false);
             }
           }}
