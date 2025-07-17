@@ -37,16 +37,15 @@ const [selectedCategory, setSelectedCategory] = useState("All");
     }
   };
 
-  const filterQuizzes = () => {
+const filterQuizzes = () => {
     let filtered = quizzes;
 
-    // Filter by category prop (if provided)
+    // Filter by category prop (if provided from parent)
     if (category && category !== "All") {
       filtered = filtered.filter(quiz => quiz.category === category);
     }
-
-    // Filter by selected category
-    if (selectedCategory !== "All") {
+    // Otherwise, filter by selected category from CategoryFilter
+    else if (selectedCategory !== "All") {
       filtered = filtered.filter(quiz => quiz.category === selectedCategory);
     }
 

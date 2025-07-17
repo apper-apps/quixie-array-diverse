@@ -2013,5 +2013,881 @@
         "explanation": "Gradual isolation is often overlooked because it happens slowly and can be rationalized as wanting to spend more time together."
       }
     ]
+},
+  {
+    "Id": 14,
+    "title": "Classic Literature Quiz: Test Your Knowledge",
+    "description": "From Shakespeare to Dickens, test your knowledge of classic literature with this comprehensive quiz covering timeless works and their authors.",
+    "category": "Books",
+    "creatorId": "user-14",
+    "participantCount": 1432,
+    "averageScore": 74,
+    "createdAt": "2024-01-18T09:30:00Z",
+    "creator": {
+      "username": "BookWormPro",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Who wrote the novel 'Pride and Prejudice'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Jane Austen", "isCorrect": true },
+          { "text": "Charlotte Brontë", "isCorrect": false },
+          { "text": "Emily Brontë", "isCorrect": false },
+          { "text": "George Eliot", "isCorrect": false }
+        ],
+        "correctAnswer": "Jane Austen",
+        "explanation": "Jane Austen wrote 'Pride and Prejudice' in 1813, one of the most beloved novels in English literature."
+      },
+      {
+        "Id": 2,
+        "text": "In which Shakespeare play does the character Hamlet appear?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Macbeth", "isCorrect": false },
+          { "text": "Hamlet", "isCorrect": true },
+          { "text": "Romeo and Juliet", "isCorrect": false },
+          { "text": "Othello", "isCorrect": false }
+        ],
+        "correctAnswer": "Hamlet",
+        "explanation": "Hamlet is the protagonist of Shakespeare's tragedy 'Hamlet', written around 1600-1601."
+      },
+      {
+        "Id": 3,
+        "text": "What is the opening line of Charles Dickens' 'A Tale of Two Cities'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "It was the best of times, it was the worst of times", "isCorrect": true },
+          { "text": "Call me Ishmael", "isCorrect": false },
+          { "text": "It is a truth universally acknowledged", "isCorrect": false },
+          { "text": "In a hole in the ground there lived a hobbit", "isCorrect": false }
+        ],
+        "correctAnswer": "It was the best of times, it was the worst of times",
+        "explanation": "This famous opening line sets the tone for Dickens' novel about the French Revolution."
+      },
+      {
+        "Id": 4,
+        "text": "Who is the author of 'To Kill a Mockingbird'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Harper Lee", "isCorrect": true },
+          { "text": "Flannery O'Connor", "isCorrect": false },
+          { "text": "Carson McCullers", "isCorrect": false },
+          { "text": "Eudora Welty", "isCorrect": false }
+        ],
+        "correctAnswer": "Harper Lee",
+        "explanation": "Harper Lee wrote 'To Kill a Mockingbird' in 1960, winning the Pulitzer Prize for Fiction in 1961."
+      },
+      {
+        "Id": 5,
+        "text": "In George Orwell's '1984', what is the name of the totalitarian leader?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Big Brother", "isCorrect": true },
+          { "text": "Emmanuel Goldstein", "isCorrect": false },
+          { "text": "Winston Smith", "isCorrect": false },
+          { "text": "O'Brien", "isCorrect": false }
+        ],
+        "correctAnswer": "Big Brother",
+        "explanation": "Big Brother is the symbolic leader of the Party in Orwell's dystopian novel '1984'."
+      },
+      {
+        "Id": 6,
+        "text": "What is the name of Atticus Finch's daughter in 'To Kill a Mockingbird'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Scout", "isCorrect": true },
+          { "text": "Mayella", "isCorrect": false },
+          { "text": "Calpurnia", "isCorrect": false },
+          { "text": "Aunt Alexandra", "isCorrect": false }
+        ],
+        "correctAnswer": "Scout",
+        "explanation": "Scout Finch (Jean Louise Finch) is the narrator and protagonist of Harper Lee's novel."
+      },
+      {
+        "Id": 7,
+        "text": "Which novel features the character Jay Gatsby?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The Great Gatsby", "isCorrect": true },
+          { "text": "The Catcher in the Rye", "isCorrect": false },
+          { "text": "The Sun Also Rises", "isCorrect": false },
+          { "text": "For Whom the Bell Tolls", "isCorrect": false }
+        ],
+        "correctAnswer": "The Great Gatsby",
+        "explanation": "Jay Gatsby is the titular character in F. Scott Fitzgerald's 'The Great Gatsby' (1925)."
+      },
+      {
+        "Id": 8,
+        "text": "Who wrote 'Jane Eyre'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Charlotte Brontë", "isCorrect": true },
+          { "text": "Emily Brontë", "isCorrect": false },
+          { "text": "Anne Brontë", "isCorrect": false },
+          { "text": "George Eliot", "isCorrect": false }
+        ],
+        "correctAnswer": "Charlotte Brontë",
+        "explanation": "Charlotte Brontë wrote 'Jane Eyre' in 1847, a classic of English literature."
+      },
+      {
+        "Id": 9,
+        "text": "What is the name of the ship in Herman Melville's 'Moby Dick'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Pequod", "isCorrect": true },
+          { "text": "Nautilus", "isCorrect": false },
+          { "text": "Beagle", "isCorrect": false },
+          { "text": "Endeavour", "isCorrect": false }
+        ],
+        "correctAnswer": "Pequod",
+        "explanation": "The Pequod is the whaling ship commanded by Captain Ahab in Melville's 'Moby Dick'."
+      },
+      {
+        "Id": 10,
+        "text": "Which author created the detective character Sherlock Holmes?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Arthur Conan Doyle", "isCorrect": true },
+          { "text": "Agatha Christie", "isCorrect": false },
+          { "text": "Edgar Allan Poe", "isCorrect": false },
+          { "text": "Raymond Chandler", "isCorrect": false }
+        ],
+        "correctAnswer": "Arthur Conan Doyle",
+        "explanation": "Sir Arthur Conan Doyle created Sherlock Holmes, first appearing in 'A Study in Scarlet' (1887)."
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "title": "Modern Fiction Masterpieces Quiz",
+    "description": "Test your knowledge of contemporary literature from the 20th and 21st centuries. From magical realism to dystopian fiction, explore modern literary achievements.",
+    "category": "Books",
+    "creatorId": "user-15",
+    "participantCount": 987,
+    "averageScore": 69,
+    "createdAt": "2024-01-17T14:20:00Z",
+    "creator": {
+      "username": "ModernLitFan",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Who wrote 'One Hundred Years of Solitude'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Gabriel García Márquez", "isCorrect": true },
+          { "text": "Isabel Allende", "isCorrect": false },
+          { "text": "Mario Vargas Llosa", "isCorrect": false },
+          { "text": "Julio Cortázar", "isCorrect": false }
+        ],
+        "correctAnswer": "Gabriel García Márquez",
+        "explanation": "Gabriel García Márquez wrote this masterpiece of magical realism in 1967, winning the Nobel Prize in Literature."
+      },
+      {
+        "Id": 2,
+        "text": "In which novel does the character Holden Caulfield appear?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The Catcher in the Rye", "isCorrect": true },
+          { "text": "Franny and Zooey", "isCorrect": false },
+          { "text": "Nine Stories", "isCorrect": false },
+          { "text": "Seymour: An Introduction", "isCorrect": false }
+        ],
+        "correctAnswer": "The Catcher in the Rye",
+        "explanation": "Holden Caulfield is the protagonist of J.D. Salinger's 'The Catcher in the Rye' (1951)."
+      },
+      {
+        "Id": 3,
+        "text": "What is the name of the fictional country in Margaret Atwood's 'The Handmaid's Tale'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Gilead", "isCorrect": true },
+          { "text": "Panem", "isCorrect": false },
+          { "text": "Oceania", "isCorrect": false },
+          { "text": "Dystopia", "isCorrect": false }
+        ],
+        "correctAnswer": "Gilead",
+        "explanation": "Gilead is the theocratic regime that has taken over parts of the United States in Atwood's dystopian novel."
+      },
+      {
+        "Id": 4,
+        "text": "Who is the author of 'Beloved'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Toni Morrison", "isCorrect": true },
+          { "text": "Maya Angelou", "isCorrect": false },
+          { "text": "Alice Walker", "isCorrect": false },
+          { "text": "Zora Neale Hurston", "isCorrect": false }
+        ],
+        "correctAnswer": "Toni Morrison",
+        "explanation": "Toni Morrison wrote 'Beloved' in 1987, winning the Pulitzer Prize for Fiction in 1988."
+      },
+      {
+        "Id": 5,
+        "text": "In Kazuo Ishiguro's 'Never Let Me Go', what are the main characters?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Clones created for organ donation", "isCorrect": true },
+          { "text": "Time travelers", "isCorrect": false },
+          { "text": "Artificial intelligences", "isCorrect": false },
+          { "text": "Refugees from war", "isCorrect": false }
+        ],
+        "correctAnswer": "Clones created for organ donation",
+        "explanation": "The novel reveals that the characters are clones raised to donate their organs, exploring themes of humanity and mortality."
+      },
+      {
+        "Id": 6,
+        "text": "Which author wrote 'The Road'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Cormac McCarthy", "isCorrect": true },
+          { "text": "Don DeLillo", "isCorrect": false },
+          { "text": "Thomas Pynchon", "isCorrect": false },
+          { "text": "Philip Roth", "isCorrect": false }
+        ],
+        "correctAnswer": "Cormac McCarthy",
+        "explanation": "Cormac McCarthy wrote 'The Road' in 2006, a post-apocalyptic novel that won the Pulitzer Prize."
+      },
+      {
+        "Id": 7,
+        "text": "What is the setting of Khaled Hosseini's 'The Kite Runner'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Afghanistan", "isCorrect": true },
+          { "text": "Pakistan", "isCorrect": false },
+          { "text": "Iran", "isCorrect": false },
+          { "text": "Iraq", "isCorrect": false }
+        ],
+        "correctAnswer": "Afghanistan",
+        "explanation": "The novel is set in Afghanistan and follows the story of Amir and Hassan against the backdrop of the country's tumultuous history."
+      },
+      {
+        "Id": 8,
+        "text": "Who wrote 'Life of Pi'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Yann Martel", "isCorrect": true },
+          { "text": "Salman Rushdie", "isCorrect": false },
+          { "text": "Arundhati Roy", "isCorrect": false },
+          { "text": "Vikram Seth", "isCorrect": false }
+        ],
+        "correctAnswer": "Yann Martel",
+        "explanation": "Yann Martel wrote 'Life of Pi' in 2001, winning the Man Booker Prize in 2002."
+      },
+      {
+        "Id": 9,
+        "text": "In which novel does the character Offred appear?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The Handmaid's Tale", "isCorrect": true },
+          { "text": "Oryx and Crake", "isCorrect": false },
+          { "text": "The Blind Assassin", "isCorrect": false },
+          { "text": "Cat's Eye", "isCorrect": false }
+        ],
+        "correctAnswer": "The Handmaid's Tale",
+        "explanation": "Offred is the narrator and protagonist of Margaret Atwood's dystopian novel 'The Handmaid's Tale'."
+      },
+      {
+        "Id": 10,
+        "text": "What is the name of the protagonist in Haruki Murakami's 'Norwegian Wood'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Toru Watanabe", "isCorrect": true },
+          { "text": "Kafka Tamura", "isCorrect": false },
+          { "text": "Hajime", "isCorrect": false },
+          { "text": "Tsukuru Tazaki", "isCorrect": false }
+        ],
+        "correctAnswer": "Toru Watanabe",
+        "explanation": "Toru Watanabe is the protagonist of Murakami's 1987 novel 'Norwegian Wood'."
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "title": "Poetry and Poets: A Literary Journey",
+    "description": "Explore the world of poetry from ancient times to modern day. Test your knowledge of famous poets, their works, and the literary movements that shaped poetry.",
+    "category": "Books",
+    "creatorId": "user-16",
+    "participantCount": 743,
+    "averageScore": 71,
+    "createdAt": "2024-01-16T11:45:00Z",
+    "creator": {
+      "username": "PoetryLover",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Who wrote the famous poem 'The Road Not Taken'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Robert Frost", "isCorrect": true },
+          { "text": "Walt Whitman", "isCorrect": false },
+          { "text": "Emily Dickinson", "isCorrect": false },
+          { "text": "Langston Hughes", "isCorrect": false }
+        ],
+        "correctAnswer": "Robert Frost",
+        "explanation": "Robert Frost wrote 'The Road Not Taken' in 1915, one of the most famous poems in American literature."
+      },
+      {
+        "Id": 2,
+        "text": "Which poet wrote 'I Know Why the Caged Bird Sings'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Maya Angelou", "isCorrect": true },
+          { "text": "Langston Hughes", "isCorrect": false },
+          { "text": "Gwendolyn Brooks", "isCorrect": false },
+          { "text": "Nikki Giovanni", "isCorrect": false }
+        ],
+        "correctAnswer": "Maya Angelou",
+        "explanation": "Maya Angelou wrote this autobiography in 1969, though she was also a renowned poet."
+      },
+      {
+        "Id": 3,
+        "text": "What is the opening line of William Blake's 'The Tyger'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Tyger Tyger, burning bright", "isCorrect": true },
+          { "text": "Tiger Tiger, in the night", "isCorrect": false },
+          { "text": "In the forests of the night", "isCorrect": false },
+          { "text": "What immortal hand or eye", "isCorrect": false }
+        ],
+        "correctAnswer": "Tyger Tyger, burning bright",
+        "explanation": "This famous opening line begins Blake's poem 'The Tyger' from 'Songs of Experience' (1794)."
+      },
+      {
+        "Id": 4,
+        "text": "Who is considered the national poet of Scotland?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Robert Burns", "isCorrect": true },
+          { "text": "Sir Walter Scott", "isCorrect": false },
+          { "text": "Hugh MacDiarmid", "isCorrect": false },
+          { "text": "Edwin Muir", "isCorrect": false }
+        ],
+        "correctAnswer": "Robert Burns",
+        "explanation": "Robert Burns (1759-1796) is widely regarded as the national poet of Scotland, known for poems like 'Auld Lang Syne'."
+      },
+      {
+        "Id": 5,
+        "text": "Which poet wrote 'Do Not Go Gentle Into That Good Night'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Dylan Thomas", "isCorrect": true },
+          { "text": "W.H. Auden", "isCorrect": false },
+          { "text": "Ted Hughes", "isCorrect": false },
+          { "text": "Philip Larkin", "isCorrect": false }
+        ],
+        "correctAnswer": "Dylan Thomas",
+        "explanation": "Dylan Thomas wrote this famous villanelle in 1951, one of his most celebrated works."
+      },
+      {
+        "Id": 6,
+        "text": "What type of poem is Shakespeare's 'Sonnet 18' ('Shall I compare thee to a summer's day')?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Shakespearean sonnet", "isCorrect": true },
+          { "text": "Petrarchan sonnet", "isCorrect": false },
+          { "text": "Spenserian sonnet", "isCorrect": false },
+          { "text": "Free verse", "isCorrect": false }
+        ],
+        "correctAnswer": "Shakespearean sonnet",
+        "explanation": "This is a Shakespearean (or English) sonnet, with the rhyme scheme ABAB CDCD EFEF GG."
+      },
+      {
+        "Id": 7,
+        "text": "Who wrote 'The Waste Land'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "T.S. Eliot", "isCorrect": true },
+          { "text": "Ezra Pound", "isCorrect": false },
+          { "text": "W.B. Yeats", "isCorrect": false },
+          { "text": "Robert Frost", "isCorrect": false }
+        ],
+        "correctAnswer": "T.S. Eliot",
+        "explanation": "T.S. Eliot wrote 'The Waste Land' in 1922, a landmark modernist poem."
+      },
+      {
+        "Id": 8,
+        "text": "Which poet is associated with the Harlem Renaissance?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Langston Hughes", "isCorrect": true },
+          { "text": "Robert Frost", "isCorrect": false },
+          { "text": "Carl Sandburg", "isCorrect": false },
+          { "text": "Wallace Stevens", "isCorrect": false }
+        ],
+        "correctAnswer": "Langston Hughes",
+        "explanation": "Langston Hughes was a central figure of the Harlem Renaissance, known for his jazz-influenced poetry."
+      },
+      {
+        "Id": 9,
+        "text": "What is the meter of most of Shakespeare's sonnets?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Iambic pentameter", "isCorrect": true },
+          { "text": "Trochaic tetrameter", "isCorrect": false },
+          { "text": "Anapestic trimeter", "isCorrect": false },
+          { "text": "Dactylic hexameter", "isCorrect": false }
+        ],
+        "correctAnswer": "Iambic pentameter",
+        "explanation": "Shakespeare's sonnets are written in iambic pentameter, with five iambic feet per line."
+      },
+      {
+        "Id": 10,
+        "text": "Who wrote 'Leaves of Grass'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Walt Whitman", "isCorrect": true },
+          { "text": "Emily Dickinson", "isCorrect": false },
+          { "text": "Henry Wadsworth Longfellow", "isCorrect": false },
+          { "text": "Ralph Waldo Emerson", "isCorrect": false }
+        ],
+        "correctAnswer": "Walt Whitman",
+        "explanation": "Walt Whitman wrote 'Leaves of Grass', first published in 1855 and revised throughout his life."
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "title": "Fantasy Literature: Worlds Beyond Imagination",
+    "description": "Journey through the realms of fantasy literature from Tolkien to modern authors. Test your knowledge of magical worlds, mythical creatures, and epic adventures.",
+    "category": "Books",
+    "creatorId": "user-17",
+    "participantCount": 1856,
+    "averageScore": 77,
+    "createdAt": "2024-01-15T16:30:00Z",
+    "creator": {
+      "username": "FantasyBookworm",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "What is the name of Frodo's sword in 'The Lord of the Rings'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Sting", "isCorrect": true },
+          { "text": "Glamdring", "isCorrect": false },
+          { "text": "Orcrist", "isCorrect": false },
+          { "text": "Andúril", "isCorrect": false }
+        ],
+        "correctAnswer": "Sting",
+        "explanation": "Sting is the Elven short sword given to Frodo by Bilbo, which glows blue when orcs are near."
+      },
+      {
+        "Id": 2,
+        "text": "In which house was Harry Potter sorted at Hogwarts?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Gryffindor", "isCorrect": true },
+          { "text": "Slytherin", "isCorrect": false },
+          { "text": "Ravenclaw", "isCorrect": false },
+          { "text": "Hufflepuff", "isCorrect": false }
+        ],
+        "correctAnswer": "Gryffindor",
+        "explanation": "Harry Potter was sorted into Gryffindor House, known for bravery and courage."
+      },
+      {
+        "Id": 3,
+        "text": "What is the name of the dragon in 'The Hobbit'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Smaug", "isCorrect": true },
+          { "text": "Glaurung", "isCorrect": false },
+          { "text": "Ancalagon", "isCorrect": false },
+          { "text": "Scatha", "isCorrect": false }
+        ],
+        "correctAnswer": "Smaug",
+        "explanation": "Smaug the Magnificent is the dragon who guards the Lonely Mountain in Tolkien's 'The Hobbit'."
+      },
+      {
+        "Id": 4,
+        "text": "Who wrote 'The Chronicles of Narnia' series?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "C.S. Lewis", "isCorrect": true },
+          { "text": "J.R.R. Tolkien", "isCorrect": false },
+          { "text": "Ursula K. Le Guin", "isCorrect": false },
+          { "text": "Terry Pratchett", "isCorrect": false }
+        ],
+        "correctAnswer": "C.S. Lewis",
+        "explanation": "C.S. Lewis wrote the seven-book Chronicles of Narnia series, beginning with 'The Lion, the Witch and the Wardrobe'."
+      },
+      {
+        "Id": 5,
+        "text": "In 'A Song of Ice and Fire', what is the name of Jon Snow's direwolf?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Ghost", "isCorrect": true },
+          { "text": "Grey Wind", "isCorrect": false },
+          { "text": "Summer", "isCorrect": false },
+          { "text": "Nymeria", "isCorrect": false }
+        ],
+        "correctAnswer": "Ghost",
+        "explanation": "Ghost is Jon Snow's albino direwolf in George R.R. Martin's 'A Song of Ice and Fire' series."
+      },
+      {
+        "Id": 6,
+        "text": "What is the name of the magical school in 'The Name of the Wind'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "The University", "isCorrect": true },
+          { "text": "Hogwarts", "isCorrect": false },
+          { "text": "Brakebills", "isCorrect": false },
+          { "text": "Roke", "isCorrect": false }
+        ],
+        "correctAnswer": "The University",
+        "explanation": "The University is where Kvothe studies sympathy and other magical arts in Patrick Rothfuss's Kingkiller Chronicle."
+      },
+      {
+        "Id": 7,
+        "text": "Who is the author of 'The Wheel of Time' series?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Robert Jordan", "isCorrect": true },
+          { "text": "Brandon Sanderson", "isCorrect": false },
+          { "text": "Terry Goodkind", "isCorrect": false },
+          { "text": "Robin Hobb", "isCorrect": false }
+        ],
+        "correctAnswer": "Robert Jordan",
+        "explanation": "Robert Jordan wrote most of 'The Wheel of Time' series, with Brandon Sanderson completing the final books."
+      },
+      {
+        "Id": 8,
+        "text": "In Terry Pratchett's Discworld, what supports the flat world?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Four elephants on a turtle", "isCorrect": true },
+          { "text": "A giant tree", "isCorrect": false },
+          { "text": "Magical pillars", "isCorrect": false },
+          { "text": "A sea of stars", "isCorrect": false }
+        ],
+        "correctAnswer": "Four elephants on a turtle",
+        "explanation": "The Discworld rests on four elephants standing on the back of the giant turtle A'Tuin."
+      },
+      {
+        "Id": 9,
+        "text": "What is the name of the magic system in Brandon Sanderson's 'Mistborn' series?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Allomancy", "isCorrect": true },
+          { "text": "Surgebinding", "isCorrect": false },
+          { "text": "AonDor", "isCorrect": false },
+          { "text": "BioChroma", "isCorrect": false }
+        ],
+        "correctAnswer": "Allomancy",
+        "explanation": "Allomancy is the magic system where practitioners ingest and burn metals to gain supernatural abilities."
+      },
+      {
+        "Id": 10,
+        "text": "In 'The Dark Tower' series, what is the name of Roland's world?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Mid-World", "isCorrect": true },
+          { "text": "End-World", "isCorrect": false },
+          { "text": "All-World", "isCorrect": false },
+          { "text": "Under-World", "isCorrect": false }
+        ],
+        "correctAnswer": "Mid-World",
+        "explanation": "Mid-World is the post-apocalyptic setting of Stephen King's 'The Dark Tower' series."
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "title": "Mystery and Detective Fiction Masters",
+    "description": "Test your knowledge of mystery and detective fiction from classic whodunits to modern thrillers. Explore the minds of literary detectives and their creators.",
+    "category": "Books",
+    "creatorId": "user-18",
+    "participantCount": 1234,
+    "averageScore": 72,
+    "createdAt": "2024-01-14T13:15:00Z",
+    "creator": {
+      "username": "MysteryReader",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Who created the detective Hercule Poirot?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Agatha Christie", "isCorrect": true },
+          { "text": "Arthur Conan Doyle", "isCorrect": false },
+          { "text": "Dorothy L. Sayers", "isCorrect": false },
+          { "text": "Raymond Chandler", "isCorrect": false }
+        ],
+        "correctAnswer": "Agatha Christie",
+        "explanation": "Agatha Christie created Hercule Poirot, the Belgian detective who appeared in 33 novels and 2 plays."
+      },
+      {
+        "Id": 2,
+        "text": "In which novel does Sherlock Holmes first appear?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "A Study in Scarlet", "isCorrect": true },
+          { "text": "The Sign of Four", "isCorrect": false },
+          { "text": "The Hound of the Baskervilles", "isCorrect": false },
+          { "text": "The Valley of Fear", "isCorrect": false }
+        ],
+        "correctAnswer": "A Study in Scarlet",
+        "explanation": "Sherlock Holmes first appeared in 'A Study in Scarlet' (1887), Arthur Conan Doyle's first Holmes story."
+      },
+      {
+        "Id": 3,
+        "text": "What is the name of Raymond Chandler's famous private detective?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Philip Marlowe", "isCorrect": true },
+          { "text": "Sam Spade", "isCorrect": false },
+          { "text": "Lew Archer", "isCorrect": false },
+          { "text": "Mike Hammer", "isCorrect": false }
+        ],
+        "correctAnswer": "Philip Marlowe",
+        "explanation": "Philip Marlowe is Raymond Chandler's hard-boiled private detective, featured in novels like 'The Big Sleep'."
+      },
+      {
+        "Id": 4,
+        "text": "Who wrote 'The Maltese Falcon'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Dashiell Hammett", "isCorrect": true },
+          { "text": "Raymond Chandler", "isCorrect": false },
+          { "text": "James M. Cain", "isCorrect": false },
+          { "text": "Mickey Spillane", "isCorrect": false }
+        ],
+        "correctAnswer": "Dashiell Hammett",
+        "explanation": "Dashiell Hammett wrote 'The Maltese Falcon' in 1930, featuring detective Sam Spade."
+      },
+      {
+        "Id": 5,
+        "text": "In Agatha Christie's 'Murder on the Orient Express', who is the murderer?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Everyone on the train", "isCorrect": true },
+          { "text": "The conductor", "isCorrect": false },
+          { "text": "Mrs. Hubbard", "isCorrect": false },
+          { "text": "Count Andrenyi", "isCorrect": false }
+        ],
+        "correctAnswer": "Everyone on the train",
+        "explanation": "In Christie's famous twist, all twelve passengers conspired to murder Ratchett for his past crimes."
+      },
+      {
+        "Id": 6,
+        "text": "What is the name of Dorothy L. Sayers' aristocratic detective?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Lord Peter Wimsey", "isCorrect": true },
+          { "text": "Inspector Morse", "isCorrect": false },
+          { "text": "Adam Dalgliesh", "isCorrect": false },
+          { "text": "Albert Campion", "isCorrect": false }
+        ],
+        "correctAnswer": "Lord Peter Wimsey",
+        "explanation": "Lord Peter Wimsey is Dorothy L. Sayers' aristocratic amateur detective who appeared in 11 novels."
+      },
+      {
+        "Id": 7,
+        "text": "Who wrote 'The Girl with the Dragon Tattoo'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Stieg Larsson", "isCorrect": true },
+          { "text": "Henning Mankell", "isCorrect": false },
+          { "text": "Jussi Adler-Olsen", "isCorrect": false },
+          { "text": "Camilla Läckberg", "isCorrect": false }
+        ],
+        "correctAnswer": "Stieg Larsson",
+        "explanation": "Stieg Larsson wrote 'The Girl with the Dragon Tattoo', the first book in the Millennium trilogy."
+      },
+      {
+        "Id": 8,
+        "text": "What is the name of Sherlock Holmes' assistant?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Dr. John Watson", "isCorrect": true },
+          { "text": "Inspector Lestrade", "isCorrect": false },
+          { "text": "Mrs. Hudson", "isCorrect": false },
+          { "text": "Mycroft Holmes", "isCorrect": false }
+        ],
+        "correctAnswer": "Dr. John Watson",
+        "explanation": "Dr. John Watson is Holmes' loyal friend and assistant, narrating most of the stories."
+      },
+      {
+        "Id": 9,
+        "text": "In which city are most of Ian Rankin's Inspector Rebus novels set?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Edinburgh", "isCorrect": true },
+          { "text": "Glasgow", "isCorrect": false },
+          { "text": "London", "isCorrect": false },
+          { "text": "Aberdeen", "isCorrect": false }
+        ],
+        "correctAnswer": "Edinburgh",
+        "explanation": "Ian Rankin's Inspector Rebus novels are set in Edinburgh, Scotland, where Rebus works as a detective."
+      },
+      {
+        "Id": 10,
+        "text": "Who created the character Miss Jane Marple?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Agatha Christie", "isCorrect": true },
+          { "text": "Dorothy L. Sayers", "isCorrect": false },
+          { "text": "Margery Allingham", "isCorrect": false },
+          { "text": "Ngaio Marsh", "isCorrect": false }
+        ],
+        "correctAnswer": "Agatha Christie",
+        "explanation": "Agatha Christie created Miss Jane Marple, the elderly amateur detective from the village of St. Mary Mead."
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "title": "Science Fiction Literature: Exploring the Future",
+    "description": "Journey through the cosmos of science fiction literature. Test your knowledge of dystopian worlds, space operas, and the authors who imagined our technological future.",
+    "category": "Books",
+    "creatorId": "user-19",
+    "participantCount": 1098,
+    "averageScore": 75,
+    "createdAt": "2024-01-13T18:45:00Z",
+    "creator": {
+      "username": "SciFiExplorer",
+      "avatar": ""
+    },
+    "questions": [
+      {
+        "Id": 1,
+        "text": "Who wrote 'Dune'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Frank Herbert", "isCorrect": true },
+          { "text": "Isaac Asimov", "isCorrect": false },
+          { "text": "Philip K. Dick", "isCorrect": false },
+          { "text": "Arthur C. Clarke", "isCorrect": false }
+        ],
+        "correctAnswer": "Frank Herbert",
+        "explanation": "Frank Herbert wrote 'Dune' (1965), one of the most influential science fiction novels ever written."
+      },
+      {
+        "Id": 2,
+        "text": "What are the three laws of robotics from Isaac Asimov's stories?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Protect humans, obey orders, preserve self", "isCorrect": true },
+          { "text": "Serve humans, learn constantly, evolve naturally", "isCorrect": false },
+          { "text": "Never harm, always help, stay functional", "isCorrect": false },
+          { "text": "Think logically, act rationally, remain loyal", "isCorrect": false }
+        ],
+        "correctAnswer": "Protect humans, obey orders, preserve self",
+        "explanation": "Asimov's Three Laws: 1) Don't harm humans, 2) Obey human orders, 3) Protect own existence (in that order of priority)."
+      },
+      {
+        "Id": 3,
+        "text": "In Ray Bradbury's 'Fahrenheit 451', what is burned?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Books", "isCorrect": true },
+          { "text": "Newspapers", "isCorrect": false },
+          { "text": "Technology", "isCorrect": false },
+          { "text": "Art", "isCorrect": false }
+        ],
+        "correctAnswer": "Books",
+        "explanation": "In Bradbury's dystopian novel, firefighters burn books to maintain social control and prevent dangerous ideas."
+      },
+      {
+        "Id": 4,
+        "text": "Who wrote 'The Foundation' series?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Isaac Asimov", "isCorrect": true },
+          { "text": "Robert Heinlein", "isCorrect": false },
+          { "text": "Arthur C. Clarke", "isCorrect": false },
+          { "text": "Frank Herbert", "isCorrect": false }
+        ],
+        "correctAnswer": "Isaac Asimov",
+        "explanation": "Isaac Asimov wrote the Foundation series, exploring the fall and rise of a galactic empire through psychohistory."
+      },
+      {
+        "Id": 5,
+        "text": "What is the name of the planet in 'Dune'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Arrakis", "isCorrect": true },
+          { "text": "Caladan", "isCorrect": false },
+          { "text": "Giedi Prime", "isCorrect": false },
+          { "text": "Kaitain", "isCorrect": false }
+        ],
+        "correctAnswer": "Arrakis",
+        "explanation": "Arrakis, also known as Dune, is the desert planet that is the primary setting of Frank Herbert's novel."
+      },
+      {
+        "Id": 6,
+        "text": "Who wrote 'Do Androids Dream of Electric Sheep?'",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Philip K. Dick", "isCorrect": true },
+          { "text": "Ursula K. Le Guin", "isCorrect": false },
+          { "text": "William Gibson", "isCorrect": false },
+          { "text": "Kurt Vonnegut", "isCorrect": false }
+        ],
+        "correctAnswer": "Philip K. Dick",
+        "explanation": "Philip K. Dick wrote this novel in 1968, which inspired the movie 'Blade Runner'."
+      },
+      {
+        "Id": 7,
+        "text": "What is the name of the computer in Arthur C. Clarke's '2001: A Space Odyssey'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "HAL 9000", "isCorrect": true },
+          { "text": "ADAM", "isCorrect": false },
+          { "text": "MOTHER", "isCorrect": false },
+          { "text": "DEEP THOUGHT", "isCorrect": false }
+        ],
+        "correctAnswer": "HAL 9000",
+        "explanation": "HAL 9000 is the artificial intelligence computer that becomes antagonistic in Clarke's novel and Kubrick's film."
+      },
+      {
+        "Id": 8,
+        "text": "Who wrote 'The Left Hand of Darkness'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Ursula K. Le Guin", "isCorrect": true },
+          { "text": "Margaret Atwood", "isCorrect": false },
+          { "text": "Octavia Butler", "isCorrect": false },
+          { "text": "Kim Stanley Robinson", "isCorrect": false }
+        ],
+        "correctAnswer": "Ursula K. Le Guin",
+        "explanation": "Ursula K. Le Guin wrote 'The Left Hand of Darkness' (1969), exploring gender and society on an alien world."
+      },
+      {
+        "Id": 9,
+        "text": "What is the name of the virtual reality world in William Gibson's 'Neuromancer'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Cyberspace", "isCorrect": true },
+          { "text": "The Matrix", "isCorrect": false },
+          { "text": "The Grid", "isCorrect": false },
+          { "text": "Virtual Reality", "isCorrect": false }
+        ],
+        "correctAnswer": "Cyberspace",
+        "explanation": "Gibson coined the term 'cyberspace' in 'Neuromancer' (1984), defining the cyberpunk genre."
+      },
+      {
+        "Id": 10,
+        "text": "Who wrote 'Slaughterhouse-Five'?",
+        "type": "multiple-choice",
+        "options": [
+          { "text": "Kurt Vonnegut", "isCorrect": true },
+          { "text": "Joseph Heller", "isCorrect": false },
+          { "text": "Thomas Pynchon", "isCorrect": false },
+          { "text": "Don DeLillo", "isCorrect": false }
+        ],
+        "correctAnswer": "Kurt Vonnegut",
+        "explanation": "Kurt Vonnegut wrote 'Slaughterhouse-Five' (1969), blending science fiction with anti-war themes."
+      }
+    ]
   }
 ]
