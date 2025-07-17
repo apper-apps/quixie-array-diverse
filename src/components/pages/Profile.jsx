@@ -214,15 +214,15 @@ const Profile = () => {
                   />
                 ) : (
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {userQuizzes.map((quiz) => (
+{userQuizzes.map((quiz) => (
                       <Card key={quiz.Id}>
                         <Badge variant="secondary" className="mb-2">
-<Badge variant="secondary" className="mb-2">
                           {quiz.category}
                         </Badge>
                         <h4 className="font-semibold mb-2">{quiz.title}</h4>
                         <p className="text-sm text-gray-600 mb-4 line-clamp-2">
                           {quiz.description}
+                        </p>
                         <div className="flex items-center justify-between text-sm text-gray-600">
                           <div className="flex items-center gap-1">
                             <ApperIcon name="Users" size={14} />
