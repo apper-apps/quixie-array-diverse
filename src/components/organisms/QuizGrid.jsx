@@ -14,7 +14,7 @@ const QuizGrid = ({ title, category, limit }) => {
   const [error, setError] = useState(null);
 const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["Personality", "Trivia", "Pop Culture", "Hypotheticals", "General Knowledge", "Love and Relationships"];
+  const categories = ["Personality", "Trivia", "Pop Culture", "Hypotheticals", "General Knowledge", "Books", "Love and Relationships"];
 
   useEffect(() => {
     loadQuizzes();

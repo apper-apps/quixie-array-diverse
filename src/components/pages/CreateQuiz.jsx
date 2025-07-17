@@ -38,9 +38,9 @@ const categories = [
     "Pop Culture",
     "Hypotheticals",
     "General Knowledge",
+    "Books",
     "Love and Relationships"
   ];
-
   const steps = [
     { number: 1, title: "Basic Info", icon: "FileText" },
     { number: 2, title: "Add Questions", icon: "Plus" },

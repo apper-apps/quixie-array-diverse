@@ -40,11 +40,17 @@ const [selectedCategory, setSelectedCategory] = useState(initialCategory);
       color: "from-green-500 to-teal-500",
       description: "What would you do in interesting scenarios?"
     },
-    {
+{
       name: "General Knowledge",
       icon: "Book",
       color: "from-red-500 to-pink-500",
       description: "Test your general knowledge and learn new facts"
+    },
+    {
+      name: "Books",
+      icon: "BookOpen",
+      color: "from-blue-500 to-indigo-500",
+      description: "Literary quizzes about your favorite books, authors, and stories"
     },
     {
       name: "Love and Relationships",
