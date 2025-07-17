@@ -141,47 +141,11 @@ const getAnalysisColor = () => {
           </Card>
         </motion.div>
 
-{/* Analysis Results */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="mb-8"
-        >
-          <Card>
-            <h3 className="text-xl font-display font-semibold mb-4">
-              Your Response Summary
-            </h3>
-            <div className="space-y-4">
-              {result.answers?.map((answer, index) => (
-                <div
-                  key={index}
-                  className="p-4 rounded-lg border bg-primary/10 border-primary/20"
-                >
-                  <div className="flex items-center gap-2 mb-2">
-                    <ApperIcon
-                      name="MessageCircle"
-                      size={16}
-                      className="text-primary"
-                    />
-                    <span className="font-medium">
-                      Question {index + 1}
-                    </span>
-                  </div>
-                  <p className="text-sm text-gray-400">
-                    Your response: {answer.selectedAnswer || "No response"}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </Card>
-        </motion.div>
-
 {/* Personalized Analysis */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 0.4 }}
           className="mb-8"
         >
           <Card>
@@ -200,10 +164,11 @@ const getAnalysisColor = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
+          transition={{ delay: 0.6 }}
         >
           <CommentSection quizId={result.quizId} />
         </motion.div>
+
       </div>
     </div>
   );
