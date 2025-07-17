@@ -58,12 +58,12 @@ const handleNextQuestion = () => {
     <div className="max-w-4xl mx-auto">
     {/* Progress Header */}
     <div className="mb-6">
-        <div className="flex items-center justify-between mb-4">
+<div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-4">
-                <span className="text-sm text-gray-400">Question {currentQuestion + 1}of {totalQuestions}
+                <span className="text-sm text-gray-600">Question {currentQuestion + 1} of {totalQuestions}
                 </span>
             </div>
-            <div className="text-sm text-gray-400">Answered: {answers.length}
+            <div className="text-sm text-gray-600">Answered: {answers.length}
             </div>
         </div>
         <ProgressBar value={progress} className="mb-2" />
@@ -115,9 +115,9 @@ const handleNextQuestion = () => {
                                 className={cn(
                                     "p-4 rounded-lg border transition-all duration-300 text-left",
                                     !isAnswered && "hover:border-primary hover:bg-primary/5",
-                                    isAnswered && isSelected && "bg-primary/20 border-primary text-primary",
+isAnswered && isSelected && "bg-primary/20 border-primary text-primary",
                                     !isAnswered && "bg-surface border-white/10 text-white cursor-pointer",
-                                    isAnswered && !isSelected && "bg-surface/50 border-white/5 text-gray-400"
+                                    isAnswered && !isSelected && "bg-surface/50 border-white/5 text-gray-600"
                                 )}>
                                 <div className="flex items-center gap-3">
                                     <div
@@ -155,7 +155,7 @@ const handleNextQuestion = () => {
                 y: -20
             }}
             className="mb-6">
-            <Card className="bg-surface/50">
+<Card className="bg-surface/50">
                 <div className="flex items-start gap-3">
                     <div
                         className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/20">
@@ -163,9 +163,9 @@ const handleNextQuestion = () => {
                     </div>
                     <div className="flex-1">
                         <h3 className="font-medium mb-2">Answer Recorded
-                                              </h3>
-                        <p className="text-gray-400 text-sm">Your response has been saved. Take your time with the next question.
-                                              </p>
+                        </h3>
+                        <p className="text-gray-600 text-sm">Your response has been saved. Take your time with the next question.
+                        </p>
                     </div>
                 </div>
             </Card>

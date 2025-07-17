@@ -1,19 +1,20 @@
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
-import Card from "@/components/atoms/Card";
-import Badge from "@/components/atoms/Badge";
-import Avatar from "@/components/atoms/Avatar";
-import ProfileStats from "@/components/organisms/ProfileStats";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
-import { userService } from "@/services/api/userService";
-import { quizService } from "@/services/api/quizService";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
+import ProfileStats from "@/components/organisms/ProfileStats";
+import Quiz from "@/components/pages/Quiz";
+import Results from "@/components/pages/Results";
+import Card from "@/components/atoms/Card";
+import Avatar from "@/components/atoms/Avatar";
+import Badge from "@/components/atoms/Badge";
+import Button from "@/components/atoms/Button";
 import { resultService } from "@/services/api/resultService";
-
+import { quizService } from "@/services/api/quizService";
+import { userService } from "@/services/api/userService";
 const Profile = () => {
   const [user, setUser] = useState(null);
   const [userQuizzes, setUserQuizzes] = useState([]);
@@ -81,9 +82,9 @@ const Profile = () => {
                 <Avatar size="xl" alt={user.username} />
                 <div className="text-center md:text-left flex-1">
                   <h1 className="text-3xl font-display font-bold mb-2">
-                    {user.username}
+{user.username}
                   </h1>
-                  <p className="text-gray-400 mb-4">
+                  <p className="text-gray-600 mb-4">
                     Quiz enthusiast and knowledge seeker
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center md:justify-start">
@@ -151,7 +152,7 @@ const Profile = () => {
                       </Button>
                     </Link>
                   </div>
-                  <div className="space-y-3">
+<div className="space-y-3">
                     {recentResults.slice(0, 3).map((result, index) => (
                       <div key={index} className="flex items-center gap-3 p-3 bg-surface/50 rounded-lg">
                         <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
@@ -159,7 +160,7 @@ const Profile = () => {
                         </div>
                         <div className="flex-1">
                           <p className="font-medium text-sm">{result.quiz?.title}</p>
-                          <p className="text-xs text-gray-400">
+                          <p className="text-xs text-gray-600">
                             Score: {result.score}/{result.totalQuestions}
                           </p>
                         </div>
@@ -176,7 +177,7 @@ const Profile = () => {
                       View All
                     </Button>
                   </div>
-                  <div className="space-y-3">
+<div className="space-y-3">
                     {user.achievements?.slice(0, 3).map((achievement, index) => (
                       <div key={index} className="flex items-center gap-3 p-3 bg-surface/50 rounded-lg">
                         <div className="w-8 h-8 bg-success/20 rounded-full flex items-center justify-center">
@@ -184,7 +185,7 @@ const Profile = () => {
                         </div>
                         <div className="flex-1">
                           <p className="font-medium text-sm">{achievement.title}</p>
-                          <p className="text-xs text-gray-400">{achievement.description}</p>
+                          <p className="text-xs text-gray-600">{achievement.description}</p>
                         </div>
                       </div>
                     ))}
@@ -216,13 +217,13 @@ const Profile = () => {
                     {userQuizzes.map((quiz) => (
                       <Card key={quiz.Id}>
                         <Badge variant="secondary" className="mb-2">
+<Badge variant="secondary" className="mb-2">
                           {quiz.category}
                         </Badge>
                         <h4 className="font-semibold mb-2">{quiz.title}</h4>
-                        <p className="text-sm text-gray-400 mb-4 line-clamp-2">
+                        <p className="text-sm text-gray-600 mb-4 line-clamp-2">
                           {quiz.description}
-                        </p>
-                        <div className="flex items-center justify-between text-sm text-gray-400">
+                        <div className="flex items-center justify-between text-sm text-gray-600">
                           <div className="flex items-center gap-1">
                             <ApperIcon name="Users" size={14} />
                             <span>{quiz.participantCount}</span>
@@ -251,12 +252,12 @@ const Profile = () => {
                   />
                 ) : (
                   <div className="space-y-4">
-                    {recentResults.map((result) => (
+{recentResults.map((result) => (
                       <Card key={result.Id}>
                         <div className="flex items-center justify-between">
                           <div className="flex-1">
                             <h4 className="font-semibold mb-1">{result.quiz?.title}</h4>
-                            <p className="text-sm text-gray-400">
+                            <p className="text-sm text-gray-600">
                               Completed on {new Date(result.completedAt).toLocaleDateString()}
                             </p>
                           </div>
@@ -264,7 +265,7 @@ const Profile = () => {
                             <div className="text-2xl font-bold text-primary">
                               {Math.round((result.score / result.totalQuestions) * 100)}%
                             </div>
-                            <p className="text-sm text-gray-400">
+                            <p className="text-sm text-gray-600">
                               {result.score}/{result.totalQuestions}
                             </p>
                           </div>
@@ -291,10 +292,10 @@ const Profile = () => {
                     <Card key={achievement.Id}>
                       <div className="text-center">
                         <div className="w-16 h-16 bg-gradient-to-br from-warning to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <ApperIcon name="Award" size={32} className="text-white" />
+<ApperIcon name="Award" size={32} className="text-white" />
                         </div>
                         <h4 className="font-semibold mb-2">{achievement.title}</h4>
-                        <p className="text-sm text-gray-400">{achievement.description}</p>
+                        <p className="text-sm text-gray-600">{achievement.description}</p>
                       </div>
                     </Card>
                   ))}

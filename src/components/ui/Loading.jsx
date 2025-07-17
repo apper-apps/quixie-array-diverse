@@ -11,9 +11,8 @@ const Loading = ({ message = "Loading..." }) => {
       >
         <ApperIcon name="Loader2" size={48} className="text-primary" />
       </motion.div>
-      
-      <div className="text-center">
-        <h3 className="text-lg font-medium text-gray-300 mb-2">{message}</h3>
+<div className="text-center">
+        <h3 className="text-lg font-medium text-gray-900 mb-2">{message}</h3>
         <div className="flex justify-center space-x-1">
           {[0, 1, 2].map((i) => (
             <motion.div

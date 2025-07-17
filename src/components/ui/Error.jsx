@@ -11,11 +11,10 @@ const Error = ({ message = "Something went wrong", onRetry }) => {
     >
       <div className="w-16 h-16 bg-error/20 rounded-full flex items-center justify-center mb-4">
         <ApperIcon name="AlertCircle" size={32} className="text-error" />
-      </div>
+</div>
       
-      <h3 className="text-xl font-semibold text-gray-300 mb-2">Oops!</h3>
-      <p className="text-gray-400 mb-6 max-w-md">{message}</p>
-      
+      <h3 className="text-xl font-semibold text-gray-900 mb-2">Oops!</h3>
+      <p className="text-gray-600 mb-6 max-w-md">{message}</p>
       {onRetry && (
         <Button
           onClick={onRetry}

@@ -15,10 +15,10 @@ const SearchBar = ({ onSearch, placeholder = "Search quizzes...", className }) =
   return (
     <form onSubmit={handleSubmit} className={cn("relative", className)}>
       <div className="relative flex items-center">
-        <ApperIcon 
+<ApperIcon 
           name="Search" 
           size={20} 
-          className="absolute left-3 text-gray-400"
+          className="absolute left-3 text-gray-600"
         />
         <Input
           type="search"

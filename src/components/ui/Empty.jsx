@@ -19,13 +19,12 @@ const Empty = ({
     >
       <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center mb-6">
         <ApperIcon name={icon} size={40} className="text-primary" />
-      </div>
+</div>
       
-      <h3 className="text-2xl font-display font-semibold text-gray-300 mb-2">
+      <h3 className="text-2xl font-display font-semibold text-gray-900 mb-2">
         {title}
       </h3>
-      <p className="text-gray-400 mb-8 max-w-md">{description}</p>
-      
+      <p className="text-gray-600 mb-8 max-w-md">{description}</p>
       {(actionLabel && (actionPath || onAction)) && (
         <div>
           {actionPath ? (

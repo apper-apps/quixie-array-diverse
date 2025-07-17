@@ -1,14 +1,15 @@
-import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
+import CommentSection from "@/components/organisms/CommentSection";
+import Quiz from "@/components/pages/Quiz";
 import Card from "@/components/atoms/Card";
 import Badge from "@/components/atoms/Badge";
-import CommentSection from "@/components/organisms/CommentSection";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
+import Button from "@/components/atoms/Button";
 import { resultService } from "@/services/api/resultService";
 
 const Results = () => {
@@ -65,9 +66,9 @@ const getAnalysisColor = () => {
           className="text-center mb-8"
 >
           <h1 className="text-3xl font-display font-bold mb-2">
-            Your Analysis
+Your Analysis
           </h1>
-          <p className="text-gray-400">
+          <p className="text-gray-600">
             {result.quiz?.title}
           </p>
         </motion.div>
@@ -87,12 +88,12 @@ const getAnalysisColor = () => {
               <h2 className="text-2xl font-display font-bold mb-2">
                 Analysis Complete
               </h2>
-              <p className="text-gray-400">
+              <p className="text-gray-600">
                 Based on your {result.totalQuestions} responses, here's your personalized analysis
               </p>
             </div>
 
-<div className="flex justify-center gap-4 mb-6">
+            <div className="flex justify-center gap-4 mb-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">
                   {result.totalQuestions}
@@ -150,9 +151,9 @@ const getAnalysisColor = () => {
         >
           <Card>
             <h3 className="text-xl font-display font-semibold mb-4">
-              Your Personalized Analysis
+Your Personalized Analysis
             </h3>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-900 leading-relaxed">
               {result.analysis || 
                 "Based on your responses, you demonstrate unique patterns in your thinking and decision-making. Your answers reveal interesting insights about your personality, preferences, and approach to various situations. This analysis is tailored specifically to your response patterns and provides a personalized perspective on your characteristics."
               }

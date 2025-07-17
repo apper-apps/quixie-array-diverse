@@ -25,23 +25,23 @@ const CommentCard = ({ comment, onUpvote, onReply, className }) => {
         <Avatar size="sm" alt={comment.user?.username} />
         
         <div className="flex-1">
-          <div className="flex items-center gap-2 mb-2">
+<div className="flex items-center gap-2 mb-2">
             <span className="font-medium text-white">{comment.user?.username}</span>
-            <span className="text-xs text-gray-400">
+            <span className="text-xs text-gray-600">
               {formatDistanceToNow(new Date(comment.createdAt), { addSuffix: true })}
             </span>
-          </div>
+</div>
           
-          <p className="text-gray-300 mb-3">{comment.text}</p>
+          <p className="text-gray-900 mb-3">{comment.text}</p>
           
           <div className="flex items-center gap-4">
             <Button
               variant="ghost"
               size="sm"
               onClick={handleUpvote}
-              className={cn(
+className={cn(
                 "flex items-center gap-1 text-sm",
-                isUpvoted ? "text-primary" : "text-gray-400"
+                isUpvoted ? "text-primary" : "text-gray-600"
               )}
             >
               <ApperIcon name="ChevronUp" size={16} />
@@ -50,9 +50,9 @@ const CommentCard = ({ comment, onUpvote, onReply, className }) => {
             
             <Button
               variant="ghost"
-              size="sm"
+size="sm"
               onClick={() => setShowReply(!showReply)}
-              className="flex items-center gap-1 text-sm text-gray-400"
+              className="flex items-center gap-1 text-sm text-gray-600"
             >
               <ApperIcon name="MessageCircle" size={16} />
               <span>Reply</span>
@@ -63,11 +63,11 @@ const CommentCard = ({ comment, onUpvote, onReply, className }) => {
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
-              className="mt-3 pl-4 border-l border-white/10"
+className="mt-3 pl-4 border-l border-white/10"
             >
-              <p className="text-sm text-gray-400 mb-2">Reply to {comment.user?.username}</p>
+              <p className="text-sm text-gray-600 mb-2">Reply to {comment.user?.username}</p>
               <textarea
-                className="w-full p-2 bg-background border border-white/10 rounded text-sm text-white placeholder-gray-400 focus:border-primary focus:outline-none resize-none"
+                className="w-full p-2 bg-background border border-white/10 rounded text-sm text-white placeholder-gray-600 focus:border-primary focus:outline-none resize-none"
                 placeholder="Write your reply..."
                 rows="2"
               />

@@ -1,14 +1,15 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
-import Input from "@/components/atoms/Input";
+import Quiz from "@/components/pages/Quiz";
 import Card from "@/components/atoms/Card";
+import Input from "@/components/atoms/Input";
 import Badge from "@/components/atoms/Badge";
-import { cn } from "@/utils/cn";
+import Button from "@/components/atoms/Button";
 import { quizService } from "@/services/api/quizService";
+import { cn } from "@/utils/cn";
 
 const CreateQuiz = () => {
   const navigate = useNavigate();
@@ -155,14 +156,13 @@ const handlePublish = async () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-8"
         >
-          <h1 className="text-3xl font-display font-bold gradient-text mb-2">
+<h1 className="text-3xl font-display font-bold gradient-text mb-2">
             Create Your Quiz
           </h1>
-          <p className="text-gray-400">
+          <p className="text-gray-600">
             Share your knowledge and creativity with the community
           </p>
         </motion.div>
-
         {/* Progress Steps */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -231,9 +231,9 @@ const handlePublish = async () => {
                   </label>
                   <textarea
                     value={quizData.description}
-                    onChange={(e) => setQuizData({ ...quizData, description: e.target.value })}
+onChange={(e) => setQuizData({ ...quizData, description: e.target.value })}
                     placeholder="Describe what your quiz is about..."
-                    className="w-full px-4 py-3 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
+                    className="w-full px-4 py-3 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-600 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
                     rows="4"
                     required
                   />
@@ -311,9 +311,9 @@ const handlePublish = async () => {
                             value={option.text}
                             onChange={(e) => handleOptionChange(index, "text", e.target.value)}
                             placeholder={`Option ${String.fromCharCode(65 + index)}...`}
-                            className="flex-1"
+className="flex-1"
                           />
-                          <span className="text-sm text-gray-400 min-w-[80px]">
+                          <span className="text-sm text-gray-600 min-w-[80px]">
                             {option.isCorrect ? "Correct" : "Option"}
                           </span>
                         </div>
@@ -327,9 +327,9 @@ const handlePublish = async () => {
                     </label>
                     <textarea
                       value={currentQuestion.explanation}
-                      onChange={(e) => setCurrentQuestion({ ...currentQuestion, explanation: e.target.value })}
+onChange={(e) => setCurrentQuestion({ ...currentQuestion, explanation: e.target.value })}
                       placeholder="Explain why this is the correct answer..."
-                      className="w-full px-4 py-3 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
+                      className="w-full px-4 py-3 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-600 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
                       rows="3"
                     />
                   </div>
@@ -354,9 +354,9 @@ const handlePublish = async () => {
                         >
                           Preview Quiz
                         </Button>
-                      )}
-{quizData.questions.length > 0 && quizData.questions.length < 10 && (
-                        <div className="text-sm text-gray-400 mt-2">
+)}
+                      {quizData.questions.length > 0 && quizData.questions.length < 10 && (
+                        <div className="text-sm text-gray-600 mt-2">
                           Add {10 - quizData.questions.length} more question{10 - quizData.questions.length !== 1 ? 's' : ''} for comprehensive analysis (minimum 10 required)
                         </div>
                       )}
@@ -387,8 +387,8 @@ const handlePublish = async () => {
                           >
                             <ApperIcon name="X" size={16} />
                           </Button>
-                        </div>
-                        <p className="text-sm text-gray-400">
+</div>
+                        <p className="text-sm text-gray-600">
                           Correct answer: {question.correctAnswer}
                         </p>
                       </div>
@@ -473,9 +473,9 @@ const handlePublish = async () => {
                 </p>
               </div>
 
-              <div className="mb-6 p-4 bg-surface/50 rounded-lg">
+<div className="mb-6 p-4 bg-surface/50 rounded-lg">
                 <h3 className="font-semibold mb-2">Quiz Summary</h3>
-                <div className="text-sm text-gray-400 space-y-1">
+                <div className="text-sm text-gray-600 space-y-1">
                   <p>Title: {quizData.title}</p>
                   <p>Category: {quizData.category}</p>
                   <p>Questions: {quizData.questions.length}</p>

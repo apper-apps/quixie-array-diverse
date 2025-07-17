@@ -15,12 +15,12 @@ const StatsCard = ({ title, value, subtitle, icon, trend, className }) => {
           <div className="p-3 bg-gradient-to-r from-primary to-secondary rounded-full">
             <ApperIcon name={icon} size={24} className="text-white" />
           </div>
-        </div>
-<h3 className="text-2xl font-bold gradient-text mb-1">{value}</h3>
-        <p className="text-sm text-gray-600 mb-2">{title}</p>
+</div>
+        <h3 className="text-2xl font-bold gradient-text mb-1">{value}</h3>
+        <p className="text-sm text-gray-900 mb-2">{title}</p>
         
         {subtitle && (
-          <p className="text-xs text-gray-700">{subtitle}</p>
+          <p className="text-xs text-gray-600">{subtitle}</p>
         )}
         {trend && (
           <div className={cn(

@@ -49,9 +49,9 @@ const navigation = [
                   to={item.path}
                   className={cn(
                     "flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors",
-                    isActive 
+isActive 
                       ? "bg-primary/20 text-primary" 
-                      : "text-gray-300 hover:text-white hover:bg-white/5"
+                      : "text-gray-600 hover:text-white hover:bg-white/5"
                   )}
                 >
                   <ApperIcon name={item.icon} size={18} />
@@ -97,9 +97,9 @@ const navigation = [
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={cn(
                       "flex items-center gap-3 px-3 py-3 rounded-lg text-sm font-medium transition-colors",
-                      isActive 
+isActive 
                         ? "bg-primary/20 text-primary" 
-                        : "text-gray-300 hover:text-white hover:bg-white/5"
+                        : "text-gray-600 hover:text-white hover:bg-white/5"
                     )}
                   >
                     <ApperIcon name={item.icon} size={20} />

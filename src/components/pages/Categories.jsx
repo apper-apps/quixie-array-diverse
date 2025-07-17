@@ -69,8 +69,8 @@ const [selectedCategory, setSelectedCategory] = useState(initialCategory);
         <div className="text-center mb-12">
           <h1 className="text-4xl font-display font-bold gradient-text mb-4">
             Quiz Categories
-          </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+</h1>
+          <p className="text-gray-600 max-w-2xl mx-auto">
             Choose from our diverse collection of quiz categories and find the perfect challenge for your mood
           </p>
         </div>
@@ -98,9 +98,9 @@ const [selectedCategory, setSelectedCategory] = useState(initialCategory);
                   <ApperIcon name={category.icon} size={24} className="text-white" />
                 </div>
                 <h3 className="text-xl font-display font-semibold mb-2">
-                  {category.name}
+{category.name}
                 </h3>
-                <p className="text-gray-400 text-sm">{category.description}</p>
+                <p className="text-gray-600 text-sm">{category.description}</p>
               </div>
             </motion.div>
           ))}
@@ -119,9 +119,9 @@ const [selectedCategory, setSelectedCategory] = useState(initialCategory);
               </div>
               <div>
                 <h2 className="text-2xl font-display font-bold">
-                  {selectedCategory} Quizzes
+{selectedCategory} Quizzes
                 </h2>
-                <p className="text-gray-400">{selectedCategoryData.description}</p>
+                <p className="text-gray-600">{selectedCategoryData.description}</p>
               </div>
             </div>
           </motion.div>

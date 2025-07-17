@@ -85,9 +85,9 @@ const CommentSection = ({ quizId }) => {
       <form onSubmit={handleSubmitComment} className="space-y-4">
         <textarea
           value={newComment}
-          onChange={(e) => setNewComment(e.target.value)}
+onChange={(e) => setNewComment(e.target.value)}
           placeholder="Share your thoughts about this quiz..."
-          className="w-full p-4 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
+          className="w-full p-4 bg-surface border border-white/10 rounded-lg text-white placeholder-gray-600 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
           rows="3"
         />
         <div className="flex justify-end">

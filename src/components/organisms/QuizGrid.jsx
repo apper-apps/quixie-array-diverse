@@ -1,10 +1,11 @@
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Empty from "@/components/ui/Empty";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
 import QuizCard from "@/components/molecules/QuizCard";
 import CategoryFilter from "@/components/molecules/CategoryFilter";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
-import Empty from "@/components/ui/Empty";
+import ProgressBar from "@/components/atoms/ProgressBar";
 import { quizService } from "@/services/api/quizService";
 
 const QuizGrid = ({ title, category, limit }) => {
@@ -57,7 +58,7 @@ const filterQuizzes = () => {
     setFilteredQuizzes(filtered);
   };
 
-  const handleCategoryChange = (newCategory) => {
+const handleCategoryChange = (newCategory) => {
     setSelectedCategory(newCategory);
   };
 

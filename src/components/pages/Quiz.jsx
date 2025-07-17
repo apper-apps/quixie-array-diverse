@@ -114,9 +114,9 @@ const generateQuizAnalysis = (quiz, answers) => {
         >
           <div className="text-center">
             <h1 className="text-3xl font-display font-bold mb-2">
-              {quiz.title}
+{quiz.title}
             </h1>
-            <p className="text-gray-400">{quiz.description}</p>
+            <p className="text-gray-600">{quiz.description}</p>
           </div>
         </motion.div>
 
