@@ -56,147 +56,145 @@ const handleNextQuestion = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Progress Header */}
-<div className="mb-6">
+    {/* Progress Header */}
+    <div className="mb-6">
         <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-400">
-              Question {currentQuestion + 1} of {totalQuestions}
-            </span>
-          </div>
-          <div className="text-sm text-gray-400">
-            Answered: {answers.length}
-          </div>
+            <div className="flex items-center gap-4">
+                <span className="text-sm text-gray-400">Question {currentQuestion + 1}of {totalQuestions}
+                </span>
+            </div>
+            <div className="text-sm text-gray-400">Answered: {answers.length}
+            </div>
         </div>
         <ProgressBar value={progress} className="mb-2" />
-      </div>
-
-      {/* Question Card */}
-      <Card className="mb-6">
+    </div>
+    {/* Question Card */}
+    <Card className="mb-6">
         <AnimatePresence mode="wait">
-          <motion.div
-            key={currentQuestion}
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
-            transition={{ duration: 0.3 }}
-          >
-            <h2 className="text-xl font-display font-semibold mb-4">
-              {question.text}
-            </h2>
-            
-            {question.media && (
-              <div className="mb-4">
-                <img 
-                  src={question.media} 
-                  alt="Question media" 
-                  className="w-full max-w-md mx-auto rounded-lg"
-                />
-              </div>
-            )}
-            
-            <div className="grid gap-3">
-{question.options.map((option, index) => {
-                const isSelected = selectedAnswer === option.text;
-                
-                return (
-                  <motion.button
-                    key={index}
-                    whileHover={{ scale: isAnswered ? 1 : 1.02 }}
-                    whileTap={{ scale: isAnswered ? 1 : 0.98 }}
-                    onClick={() => handleAnswerSelect(option.text)}
-                    disabled={isAnswered}
-className={cn(
-                      "p-4 rounded-lg border transition-all duration-300 text-left",
-                      !isAnswered && "hover:border-primary hover:bg-primary/5",
-                      isAnswered && isSelected && "bg-primary/20 border-primary text-primary",
-                      !isAnswered && "bg-surface border-white/10 text-white cursor-pointer",
-                      isAnswered && !isSelected && "bg-surface/50 border-white/5 text-gray-400"
-                    )}
-                  >
-                    <div className="flex items-center gap-3">
-<div className={cn(
-                        "w-6 h-6 rounded-full border-2 flex items-center justify-center text-xs font-bold",
-                        isAnswered && isSelected && "bg-primary border-primary text-white",
-                        !isAnswered && "border-white/30"
-                      )}>
-                        {String.fromCharCode(65 + index)}
-                      </div>
-<span className="flex-1">{option.text}</span>
-                      {isAnswered && isSelected && (
-                        <ApperIcon name="Check" size={20} className="text-primary" />
-                      )}
-                    </div>
-                  </motion.button>
-                );
-              })}
-            </div>
-          </motion.div>
+            <motion.div
+                key={currentQuestion}
+                initial={{
+                    opacity: 0,
+                    x: 50
+                }}
+                animate={{
+                    opacity: 1,
+                    x: 0
+                }}
+                exit={{
+                    opacity: 0,
+                    x: -50
+                }}
+                transition={{
+                    duration: 0.3
+                }}>
+                <h2 className="text-xl font-display font-semibold mb-4">
+                    {question.text}
+                </h2>
+                {question.media && <div className="mb-4">
+                    <img
+                        src={question.media}
+                        alt="Question media"
+                        className="w-full max-w-md mx-auto rounded-lg" />
+                </div>}
+                <div className="grid gap-3">
+                    {question.options.map((option, index) => {
+                        const isSelected = selectedAnswer === option.text;
+
+                        return (
+                            <motion.button
+                                key={index}
+                                whileHover={{
+                                    scale: isAnswered ? 1 : 1.02
+                                }}
+                                whileTap={{
+                                    scale: isAnswered ? 1 : 0.98
+                                }}
+                                onClick={() => handleAnswerSelect(option.text)}
+                                disabled={isAnswered}
+                                className={cn(
+                                    "p-4 rounded-lg border transition-all duration-300 text-left",
+                                    !isAnswered && "hover:border-primary hover:bg-primary/5",
+                                    isAnswered && isSelected && "bg-primary/20 border-primary text-primary",
+                                    !isAnswered && "bg-surface border-white/10 text-white cursor-pointer",
+                                    isAnswered && !isSelected && "bg-surface/50 border-white/5 text-gray-400"
+                                )}>
+                                <div className="flex items-center gap-3">
+                                    <div
+                                        className={cn(
+                                            "w-6 h-6 rounded-full border-2 flex items-center justify-center text-xs font-bold",
+                                            isAnswered && isSelected && "bg-primary border-primary text-white",
+                                            !isAnswered && "border-white/30"
+                                        )}>
+                                        {String.fromCharCode(65 + index)}
+                                    </div>
+                                    <span className="flex-1">{option.text}</span>
+                                    {isAnswered && isSelected && <ApperIcon name="Check" size={20} className="text-primary" />}
+                                </div>
+                            </motion.button>
+                        );
+                    })}
+                </div>
+            </motion.div>
         </AnimatePresence>
-      </Card>
-
-      {/* Feedback Section */}
-{/* Feedback Section */}
-      <AnimatePresence>
-        {showFeedback && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="mb-6"
-          >
+    </Card>
+    {/* Feedback Section */}
+    {/* Feedback Section */}
+    <AnimatePresence>
+        {showFeedback && <motion.div
+            initial={{
+                opacity: 0,
+                y: 20
+            }}
+            animate={{
+                opacity: 1,
+                y: 0
+            }}
+            exit={{
+                opacity: 0,
+                y: -20
+            }}
+            className="mb-6">
             <Card className="bg-surface/50">
-              <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/20">
-                  <ApperIcon 
-                    name="Check" 
-                    size={20} 
-                    className="text-primary"
-                  />
+                <div className="flex items-start gap-3">
+                    <div
+                        className="w-10 h-10 rounded-full flex items-center justify-center bg-primary/20">
+                        <ApperIcon name="Check" size={20} className="text-primary" />
+                    </div>
+                    <div className="flex-1">
+                        <h3 className="font-medium mb-2">Answer Recorded
+                                              </h3>
+                        <p className="text-gray-400 text-sm">Your response has been saved. Take your time with the next question.
+                                              </p>
+                    </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="font-medium mb-2">
-                    Answer Recorded
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    Your response has been saved. Take your time with the next question.
-                  </p>
-                </div>
-              </div>
             </Card>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* Navigation */}
+        </motion.div>}
+    </AnimatePresence>
+    {/* Navigation */}
+    <div className="flex items-center justify-between">
         <Button
-          variant="ghost"
-          onClick={() => {
-            if (currentQuestion > 0) {
-              setCurrentQuestion(currentQuestion - 1);
-              setSelectedAnswer(null);
-              setShowFeedback(false);
-              setIsAnswered(false);
-            }
-          }}
-          disabled={currentQuestion === 0}
-        >
-          <ApperIcon name="ChevronLeft" size={20} />
-          Previous
-        </Button>
-
-        {showFeedback && (
-          <Button
+            variant="ghost"
+            onClick={() => {
+                if (currentQuestion > 0) {
+                    setCurrentQuestion(currentQuestion - 1);
+                    setSelectedAnswer(null);
+                    setShowFeedback(false);
+                    setIsAnswered(false);
+                }
+            }}
+            disabled={currentQuestion === 0}>
+            <ApperIcon name="ChevronLeft" size={20} />Previous
+                    </Button>
+        {showFeedback && <Button
             variant="primary"
             onClick={handleNextQuestion}
-            className="flex items-center gap-2"
-          >
+            className="flex items-center gap-2">
             {currentQuestion < totalQuestions - 1 ? "Next Question" : "Finish Quiz"}
             <ApperIcon name="ChevronRight" size={20} />
-          </Button>
-        )}
-      </div>
+        </Button>}
     </div>
+</div>
   );
 };
 
