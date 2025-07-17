@@ -29,9 +29,9 @@ const QuizCard = ({ quiz, className }) => {
           <div className="flex flex-col h-full">
             <div className="flex items-start justify-between mb-3">
               <Badge variant={getCategoryColor(quiz.category)}>
-                {quiz.category}
+{quiz.category}
               </Badge>
-              <div className="flex items-center gap-1 text-sm text-gray-400">
+              <div className="flex items-center gap-1 text-sm text-gray-600">
                 <ApperIcon name="Users" size={14} />
                 <span>{quiz.participantCount}</span>
               </div>
@@ -39,19 +39,18 @@ const QuizCard = ({ quiz, className }) => {
             
             <h3 className="font-display font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
               {quiz.title}
-            </h3>
+</h3>
             
-            <p className="text-gray-400 text-sm mb-4 flex-grow line-clamp-2">
+            <p className="text-gray-600 text-sm mb-4 flex-grow line-clamp-2">
               {quiz.description}
             </p>
-            
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
+<div className="flex items-center gap-2">
                 <Avatar size="sm" alt={quiz.creator?.username} />
-                <span className="text-sm text-gray-300">{quiz.creator?.username}</span>
+                <span className="text-sm text-gray-700">{quiz.creator?.username}</span>
               </div>
               
-              <div className="flex items-center gap-1 text-sm text-gray-400">
+              <div className="flex items-center gap-1 text-sm text-gray-600">
                 <ApperIcon name="Clock" size={14} />
                 <span>{quiz.questions?.length || 0} questions</span>
               </div>

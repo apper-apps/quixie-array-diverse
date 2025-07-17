@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
         primary: '#7C3AED',
@@ -14,8 +14,8 @@ export default {
         warning: '#F59E0B',
         error: '#EF4444',
         info: '#3B82F6',
-        surface: '#1F2937',
-        background: '#111827',
+        surface: '#F9FAFB',
+        background: '#FFFFFF',
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],
